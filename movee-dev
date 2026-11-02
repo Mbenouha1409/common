@@ -1,0 +1,3 @@
+#!/bin/sh
+MOVEE_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$MOVEE_ROOT/movee-app/venv/bin/python" -B "$MOVEE_ROOT/dev/movee_dev.py" "$@"

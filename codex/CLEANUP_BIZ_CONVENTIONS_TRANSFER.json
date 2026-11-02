@@ -1,0 +1,8 @@
+{
+  "source": "movee-biz/ASSUMPTIONS.md",
+  "source_sha256": "e1d512d6ad3a249cbafbf63708715ebadfc0be386aea72791ea379c4b951fc45",
+  "destination": "codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+  "full_source_content_transferred": true,
+  "historical_display_overrides_explicitly_marked": true,
+  "no_financial_code_or_parameters_changed": true
+}

@@ -1,0 +1,17 @@
+# Shared MOVEE references and local development tooling only
+/*
+!/.gitignore
+!/codex/
+!/docs/
+!/dev/
+!/movee-dev
+!/movee.code-workspace
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+*.log
+/docs/iphone-test/expo-go-qr.png

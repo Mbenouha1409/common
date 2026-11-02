@@ -1,0 +1,2 @@
+# Infrastructure locale uniquement ; installer dans movee-app/venv.
+gunicorn==26.2.0

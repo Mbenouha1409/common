@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "movee-app"
+		},
+		{
+			"path": "movee-biz"
+		},
+		{
+			"path": "movee-mobile"
+		}
+	],
+	"settings": {}
+}

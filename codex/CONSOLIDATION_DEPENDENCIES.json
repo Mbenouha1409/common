@@ -1,0 +1,725 @@
+{
+  "scope": "textual references only; original files not rewritten",
+  "files": [
+    {
+      "path": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 47,
+          "references": [
+            "METADATA_ENGINE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 220,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 452,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 453,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 900,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 86,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 126,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 127,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/codex/AGENTS.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 9,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md",
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 33,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 34,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 36,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 37,
+          "references": [
+            "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOTION_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_studios_metadata_activation_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9839,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_native_completion_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9864,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/ADMIN_CORE_BATCH_HANDOFF.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 5,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_native_recovery_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9857,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_core_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9844,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/MOBILE_BOOKING_PREFERENCES_CONTRACT_PROPOSAL.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 39,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_studios_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 142,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_core_reads_permissions_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9850,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_native_completion_integration_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 9868,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/ADMIN_STUDIOS_CONTRACTS_AND_VALIDATION.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 3,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/ADMIN_CORE_BATCH_DELIVERY.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 18,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/SESSION_PAGES_V7_VALIDATION.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 43,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/ADMIN_STUDIOS_HANDOFF.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 3,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_studios_permissions_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 142,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/admin_studios_recovery_resolved_plan.json",
+      "kind": "artifact",
+      "references": [
+        {
+          "line": 197,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/archive/README.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 3,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/docs/archive/MOVEE_SQL_CONSOLIDATION_AUDIT.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 9,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_APP_TECHNICAL_REFERENCE.md",
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 13,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-app/services/admin_studios_plan_service.py",
+      "kind": "executable",
+      "references": [
+        {
+          "line": 18,
+          "references": [
+            "MOVEE_ADMIN_SCOPE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 489,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 512,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 513,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_METADATA_FRAMEWORK_HANDOFF.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 14,
+          "references": [
+            "METADATA_ENGINE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 426,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 427,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 428,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 429,
+          "references": [
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-mobile/codex/AGENTS.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 11,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 12,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 13,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 14,
+          "references": [
+            "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOTION_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 377,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 391,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 395,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 397,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 419,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 468,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 469,
+          "references": [
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 636,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 683,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-biz/codex/AGENTS.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 11,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 12,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 13,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 14,
+          "references": [
+            "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOTION_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 348,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 352,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 354,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 364,
+          "references": [
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 36,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 37,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 38,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 46,
+          "references": [
+            "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+            "MOVEE_MOTION_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/ENVIRONNEMENT_DEVELOPPEMENT_MAC.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 142,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 143,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 144,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 147,
+          "references": [
+            "CONTINUITE_PROJET_MOVEE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BACKEND.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 20,
+          "references": [
+            "CONTINUITE_PROJET_MOVEE.md"
+          ]
+        },
+        {
+          "line": 29,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 30,
+          "references": [
+            "MOVEE_APP_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 31,
+          "references": [
+            "MOVEE_APP_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BIZ.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 20,
+          "references": [
+            "CONTINUITE_PROJET_MOVEE.md"
+          ]
+        },
+        {
+          "line": 29,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 30,
+          "references": [
+            "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 31,
+          "references": [
+            "MOVEE_BIZ_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 15,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_MOBILE.md",
+      "kind": "documentation",
+      "references": [
+        {
+          "line": 20,
+          "references": [
+            "CONTINUITE_PROJET_MOVEE.md"
+          ]
+        },
+        {
+          "line": 29,
+          "references": [
+            "codex/AGENTS.md"
+          ]
+        },
+        {
+          "line": 30,
+          "references": [
+            "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md"
+          ]
+        },
+        {
+          "line": 31,
+          "references": [
+            "MOVEE_MOBILE_TECHNICAL_REFERENCE.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

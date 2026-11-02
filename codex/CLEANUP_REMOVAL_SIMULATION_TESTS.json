@@ -1,0 +1,695 @@
+{
+  "mode": "simulate_removed_documents_before_actual_deletion",
+  "no_local_database_connection": true,
+  "modules": 96,
+  "tests": 991,
+  "failed_modules": [],
+  "skipped": 3,
+  "results": [
+    {
+      "module": "tests.test_action_menus",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_completion",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_completion_integration",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_completion_plan",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_completion_services",
+      "tests": 10,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_core_delivery",
+      "tests": 17,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_core_filter_presentation",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_core_permissions",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_core_proposal",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_integration_plan",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_native_plan",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_recovery",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_row_shortcuts",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_admin_studios",
+      "tests": 11,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_assistant",
+      "tests": 17,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_assistant_context",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_assistant_redis_integration",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": [
+        [
+          "test_multi_process_quota (tests.test_assistant_redis_integration.AssistantRedisIntegrationTests.test_multi_process_quota)",
+          "Isolated ephemeral Redis not provided (MOVEE_TEST_REDIS_URL / MOVEE_TEST_REDIS_EPHEMERAL=1)"
+        ],
+        [
+          "test_token_native_expiration (tests.test_assistant_redis_integration.AssistantRedisIntegrationTests.test_token_native_expiration)",
+          "Isolated ephemeral Redis not provided (MOVEE_TEST_REDIS_URL / MOVEE_TEST_REDIS_EPHEMERAL=1)"
+        ],
+        [
+          "test_two_instances_cas_retry_and_reset (tests.test_assistant_redis_integration.AssistantRedisIntegrationTests.test_two_instances_cas_retry_and_reset)",
+          "Isolated ephemeral Redis not provided (MOVEE_TEST_REDIS_URL / MOVEE_TEST_REDIS_EPHEMERAL=1)"
+        ]
+      ]
+    },
+    {
+      "module": "tests.test_baseline_v1",
+      "tests": 9,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_block_pages",
+      "tests": 35,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_block_pages_plan",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_admin_pages_installation",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_composition_pages",
+      "tests": 19,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_composition_pages_plan",
+      "tests": 8,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_preferences",
+      "tests": 25,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_preferences_migration",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_process_pages",
+      "tests": 32,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_process_pages_plan",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_settings",
+      "tests": 19,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_booking_settings_installation",
+      "tests": 11,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_catalogue_presentation_pages",
+      "tests": 13,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_catalogue_presentation_plan",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_catalogue_web_hydration",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_chrome_pages",
+      "tests": 20,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_chrome_pages_exports",
+      "tests": 1,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_chrome_pages_plan",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_chrome_switch",
+      "tests": 2,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_common_french_labels",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_complete_acceptance_dataset",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_covered_pages_plan",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_covered_public_pages",
+      "tests": 22,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_d2",
+      "tests": 15,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_d2_booking_credits",
+      "tests": 12,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_d5",
+      "tests": 13,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_exercise_media_selection",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_front_d1",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_grouped_pages",
+      "tests": 9,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_grouped_pages_plan",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2a_assistant",
+      "tests": 10,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2a_business",
+      "tests": 13,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2a_confirmations",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_booking",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_completion",
+      "tests": 34,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_core",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_integration",
+      "tests": 11,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_postflight_checks",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_program",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_ia2b_review",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_initial_admin",
+      "tests": 24,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_linked_public_pages",
+      "tests": 24,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mcp_mutation",
+      "tests": 10,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mcp_search",
+      "tests": 16,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mcp_transport",
+      "tests": 34,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_migration_v1",
+      "tests": 15,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_auth",
+      "tests": 12,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_booking_actions_contract",
+      "tests": 16,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_booking_actions_loader",
+      "tests": 9,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_booking_planning",
+      "tests": 11,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_booking_v8_acceptance",
+      "tests": 8,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_configuration",
+      "tests": 10,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_cors",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_pages",
+      "tests": 14,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_pages_acceptance_data",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_pages_consolidation",
+      "tests": 12,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_pages_installation",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_session_entry_plan",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_mobile_session_presentation",
+      "tests": 12,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_movee_network",
+      "tests": 25,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_movee_preflight_diagnostic",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_movee_sql_types",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_native_catalogue_locale",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_native_pages_runtime",
+      "tests": 14,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_page_front_type_migration",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_page_front_type_preparation",
+      "tests": 5,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_programme_planning_values",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_public_mobile_home_plan",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_public_navigation_pages",
+      "tests": 13,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_public_pages_contract",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_repdb_catalogue",
+      "tests": 9,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_session_pages_plan",
+      "tests": 6,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_session_public_pages",
+      "tests": 17,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_sql_consolidation",
+      "tests": 25,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_studios_metadata_contract",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_web_read_pages",
+      "tests": 4,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_workspace_pages",
+      "tests": 21,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_workspace_pages_plan",
+      "tests": 7,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    },
+    {
+      "module": "tests.test_coach_workspace",
+      "tests": 3,
+      "failures": [],
+      "errors": [],
+      "skipped": []
+    }
+  ]
+}

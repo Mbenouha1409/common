@@ -1,0 +1,5 @@
+/* Web extraction of DESIGN_SYSTEM_MOVEE.md v1.2 — no additional brand rules. */
+@font-face{font-family:Manrope;src:url('./fonts/Manrope-Variable.ttf') format('truetype');font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:Sora;src:url('./fonts/Sora-Variable.ttf') format('truetype');font-weight:100 800;font-style:normal;font-display:swap}
+:root{color-scheme:light;--brand-ink:#10131A;--lime:#EFFF4F;--paper:#F4F5F0;--surface:#FFFFFF;--ink:#10131A;--muted:#5B635E;--line:#D9DED2;--control:#7B8678;--selected:#E8EBDD;--accent:#536000;--success:#245C40;--success-bg:#EAF3E9;--danger:#A02C30;--danger-bg:#FCEBEC;--heading:Manrope,system-ui,sans-serif;--radius:12px;--card-radius:16px}
+:root[data-theme=dark]{color-scheme:dark;--paper:#10131A;--surface:#1B202A;--ink:#F7F8F2;--muted:#B5BDB7;--line:#3C4652;--control:#798696;--selected:#29313C;--accent:#EFFF4F;--success:#B7E4CA;--success-bg:#173C2A;--danger:#FFB2AC;--danger-bg:#402427;--heading:Sora,system-ui,sans-serif;--radius:8px;--card-radius:8px}

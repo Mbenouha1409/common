@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "scope": "documentation only",
+  "deletions_performed": false,
+  "source_count": 17,
+  "section_count": 378,
+  "mapping_modes": {
+    "transferred": 261,
+    "replaced": 54,
+    "derived_index_removed": 10,
+    "exact_duplicate_reference": 53
+  },
+  "original_source_hashes_unchanged": true,
+  "decision_preservation": [
+    {
+      "register": "Q001–Q130",
+      "entries": 130,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "B6.61–B6.71, B7.1–10, B8.1–13",
+      "entries": 34,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "T Mobile",
+      "entries": 78,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "D Biz",
+      "entries": 57,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "Q Biz",
+      "entries": 8,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "S Biz",
+      "entries": 10,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "F Biz",
+      "entries": 11,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "XP Pod",
+      "entries": 12,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "POD-T",
+      "entries": 12,
+      "exact_lines_or_headings_preserved": true
+    },
+    {
+      "register": "Q decision contents",
+      "complete_fragment_preserved": true
+    },
+    {
+      "register": "B1–B5 contents",
+      "complete_fragment_preserved": true
+    },
+    {
+      "register": "Biz D/Q complete decisions",
+      "complete_fragment_preserved": true
+    },
+    {
+      "register": "Biz F complete financial model",
+      "complete_fragment_preserved": true
+    }
+  ],
+  "motion_original_sections_present": true,
+  "local_links_checked": 253,
+  "broken_local_links": [],
+  "new_reference_files": [
+    "AGENTS.md",
+    "CONSOLIDATION_REVIEW.md",
+    "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_ADMIN_TECHNICAL_REFERENCE.md",
+    "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_APP_TECHNICAL_REFERENCE.md",
+    "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+    "MOVEE_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+    "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+    "MOVEE_POD_FUNCTIONAL_REFERENCE.md",
+    "MOVEE_POD_TECHNICAL_REFERENCE.md",
+    "MOVEE_TECHNICAL_REFERENCE.md",
+    "README.md"
+  ],
+  "no_runtime_or_database_tests_required": true,
+  "no_new_implementation_or_legal_validation_claimed": true,
+  "passed": true,
+  "final_artifact_hashes": {
+    "README.md": "cf2377b92f2fe04c62ced90ca7803a8a987496236915d77fcd50648cb04ef74a",
+    "AGENTS.md": "f95ec43aaddaba47074fc98a76a0f0a9ca48ef288d47288dce1266becf969412",
+    "CONSOLIDATION_REVIEW.md": "12127b38c238bd3fdd83858030215e15fe94a23321f9060f6835e88eabb4f456",
+    "MOVEE_POD_TECHNICAL_REFERENCE.md": "9dfb2548ded0ee34f98604a1df7f4608814c4740e279799dc779acb1e2cffb38",
+    "MOVEE_ADMIN_TECHNICAL_REFERENCE.md": "617eb7fc672c4482a25e5adc0fcbe6be432c6335bc6b213a335ad68b414aab3b",
+    "MOVEE_MOBILE_TECHNICAL_REFERENCE.md": "72c2b04d90f7681a9fa4f3d34a60bde065a61b7036074918846f5379c35ff2ba",
+    "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md": "4c6a174a6cf90b7ec9b11000399bb38d3b814a634d22044e3f3522bb6620e7ee",
+    "MOVEE_MOTION_TECHNICAL_REFERENCE.md": "3998e3f35249ebf0ae05478306e03f1b35f0204a5978b3edb8d37a6588f05963",
+    "MOVEE_APP_TECHNICAL_REFERENCE.md": "1551204ea4252736672efed554df8f887a7558bfdc887ed79be47762ff09b224",
+    "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md": "9653699dcf9d9a506422d71c16fa49c827dcc670f71eccf44612a601f0777cb4",
+    "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md": "279eb0960aa1da0989cc597104519f258d6fedeea7f1fbed16c6ac1bccf0a26a",
+    "MOVEE_APP_FUNCTIONAL_REFERENCE.md": "66aa293645fde4e3f249aa29cc6346a9660932a10433dcfc7d6dfc5ce25064cb",
+    "MOVEE_BIZ_TECHNICAL_REFERENCE.md": "f97d3d82f4c2243f171af0a962ef0694a1dcf4a801263f615ab3de137561fd56",
+    "MOVEE_POD_FUNCTIONAL_REFERENCE.md": "917acb14bb4b732a58055af79cb61b664ea4dc0e88cec3b23f9f5e36b68347af",
+    "MOVEE_TECHNICAL_REFERENCE.md": "ae4286fadb28755ccfb6cbf7aee89acd163d0cfc134e4715219de51724006d0d",
+    "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md": "5a8a38601da78282d560a0a31506e64bc3084ae9d06688456c5b8c4d97b9b249",
+    "MOVEE_FUNCTIONAL_REFERENCE.md": "5bd122f2fc9e5edacfa5e9d72a694beea838a3dd7eb3794ec73d1aaf700f14e3"
+  }
+}

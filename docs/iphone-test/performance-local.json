@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "change": "launchd Interactive for backend and expo; Redis remains Background",
+  "verification": "launchctl spawn type interactive (4) for both jobs",
+  "isolated_comparison": {
+    "background_seconds": 6.959,
+    "normal_seconds": 1.7678,
+    "items": 10,
+    "single_sample_per_mode": true,
+    "http_authenticated": false,
+    "iphone_measured": false
+  },
+  "public_http_seconds": {
+    "login": [
+      0.0125,
+      0.0026,
+      0.0019
+    ],
+    "login_presentation": [
+      0.0311,
+      0.0153,
+      0.0154
+    ]
+  },
+  "tables_preserved_per_readonly_run": [
+    83,
+    83
+  ],
+  "preflight": "public_native_blocks_v12_v1",
+  "tests": 11,
+  "redis_preserved": 1266,
+  "sql_writes": 0
+}

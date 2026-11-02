@@ -1,0 +1,4006 @@
+{
+  "date": "2026-11-02",
+  "root": "/Users/mbenmouha/Documents/Movee",
+  "source_files": [
+    {
+      "path": "movee-app/codex/AGENTS.md",
+      "sha256": "7544cca4c326333c4648357ca011b70affe11a0c3572f243c72024ed61339546",
+      "bytes": 14573,
+      "lines": 120
+    },
+    {
+      "path": "movee-mobile/codex/AGENTS.md",
+      "sha256": "a345a7dcd3d838ba9f5051357ca1ad8e81b069418c37813ad0d1cdd9337e93c8",
+      "bytes": 10202,
+      "lines": 97
+    },
+    {
+      "path": "movee-biz/codex/AGENTS.md",
+      "sha256": "a345a7dcd3d838ba9f5051357ca1ad8e81b069418c37813ad0d1cdd9337e93c8",
+      "bytes": 10202,
+      "lines": 97
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "sha256": "1f0e2f896565a41e5a8441172577af82b14d56e55b903df6880db47e9b8706e3",
+      "bytes": 109729,
+      "lines": 1297
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "sha256": "bc98d9486e466e1a6b7f81e2145f9edc6c3bfd64b13df4255f00c35953dbaac7",
+      "bytes": 109877,
+      "lines": 1134
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "sha256": "f310d3cacf9f30b8c951a5e2338d40523afb2b210aeba8de3a1d337c051273f9",
+      "bytes": 173484,
+      "lines": 1207
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "sha256": "035c9b6ff3e887be44a7ef42d9ceb9ad83babcfa4c80b3c297424f7ffccb7a3a",
+      "bytes": 204504,
+      "lines": 1430
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "sha256": "107ed0bac436d987fdb151ae0bdd071959af65a12e44e1acf29931d5369b54dd",
+      "bytes": 179307,
+      "lines": 1568
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "sha256": "b36377384f83a384ade592d5e09a13126e98070a276e6d109500bb556c45f488",
+      "bytes": 93232,
+      "lines": 890
+    },
+    {
+      "path": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "sha256": "9cb06eb1c06e1a98619ddec19196f6495e98ecff4cfc37d65ef664c45949e6cb",
+      "bytes": 59449,
+      "lines": 669
+    },
+    {
+      "path": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "sha256": "fe98b0a58325601857f5cc337bb30eaf1c90ce3d666a16b529b35037cf6aaf13",
+      "bytes": 9439,
+      "lines": 93
+    },
+    {
+      "path": "movee-app/codex/METADATA_ENGINE.md",
+      "sha256": "2ea23993170c05239882eb2644fe49a6c02f7e94693333ef7cbb833b383fb108",
+      "bytes": 15153,
+      "lines": 309
+    },
+    {
+      "path": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "sha256": "620daeba8b42fcec4f035cf275b076f37865da85192c09a88afc3106ebebf75f",
+      "bytes": 14792,
+      "lines": 191
+    },
+    {
+      "path": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "sha256": "b8300227dc2465a4e34678365033be1958dbd893793ea8b37ca5b682966c342b",
+      "bytes": 3262,
+      "lines": 36
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BACKEND.md",
+      "sha256": "4d092586e067e495b5ac24bdfd7d7e3e7d50ff6b5c059ba78f05a02b5d9b36ec",
+      "bytes": 6492,
+      "lines": 44
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_MOBILE.md",
+      "sha256": "6d0a24eaef5578d114a69f93475858f07d9034379323a5b3a94218fbdccb0bfe",
+      "bytes": 6928,
+      "lines": 44
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BIZ.md",
+      "sha256": "3128a7f623f776e300ffa8d72b1eac5cde3a5d9ddb230ae60bc3b003426db093",
+      "bytes": 6687,
+      "lines": 44
+    }
+  ],
+  "section_map": [
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2b12b2abc58966183f5009a6dc78d51783fae0b503e229c2a31b5f6f8b6c6776"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 96,
+      "title": "Périmètre commun MOVEE Pod — consolidation du 30 octobre 2026",
+      "source_section_sha256": "99a91016d51dee09d157f46b3ddfad544525320daf2cebb2cf7a031fb4e8fb33",
+      "target": "MOVEE_POD_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "010060c907e1b443d1bd4a608687123724699f3dcee6b4fb76cda25f8b7c8d20"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 97,
+      "end_line": 120,
+      "title": "Actualisation de l’état local — 21 octobre 2026",
+      "source_section_sha256": "f4c7cef97439ee03ab94188030ecc20c313a091b2c4336ff5ee64efcb535368a",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "115b65b2aaeda421d216f71e712d0f3b1bb19efc6d2b760b8707084f3095bf41"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 121,
+      "end_line": 138,
+      "title": "Références documentaires canoniques",
+      "source_section_sha256": "71338dd0c57d513cf9c1faf29d120db5af2982bc782fc5dd42ba6b4a364f25f9",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Ancienne organisation à cinq fichiers remplacée par le dossier commun autorisé."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 139,
+      "end_line": 146,
+      "title": "Directive actuelle — expérience mobile et agent IA",
+      "source_section_sha256": "06832e842105d089eb4b7c624ff82d7c0bae5e0265382fa4f87378f3f7f4e56d",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "4d120533c69459473f7b8e7771d888115ae27c57476796516846af1f08400e80"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 147,
+      "end_line": 193,
+      "title": "Couverture actuelle et limites à ne pas confondre",
+      "source_section_sha256": "784da71f795f44b2ce9a4d57b21cbe0bc6ce7dcf6a861a79a19ec16e24a911b9",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "692d231e298c7bea5f01d3c10cfd6abf4e6c8773646ae574e23407ba4ff94054"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 194,
+      "end_line": 199,
+      "title": "MOVEE — Vision produit",
+      "source_section_sha256": "bbac61e3626a4ae5078aef28e38cf275018b3d5d6515b1d58f81350867c0015e",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "88d27ca61c784712aabbf2be79f151aac603812a9e6156637cc3d828bec7e2c6"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 200,
+      "end_line": 203,
+      "title": "Positionnement",
+      "source_section_sha256": "71d19a2885704b4d38763b296828a50199e38d0db2e9845552f415de36f78230",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "04f90d0aaa6555f0126aeb796570a79644544764caefe16601e9983d11affa57"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 204,
+      "end_line": 213,
+      "title": "Acteurs",
+      "source_section_sha256": "de514c69af895574111db941dbf02a81130ee41b16119e278b785ce05f3c0f34",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3441ed6b4352649c92997dde1a9bf1b610a696c809592e496131030ae5acc0df"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 214,
+      "end_line": 217,
+      "title": "Principes non négociables",
+      "source_section_sha256": "f99751d5ee3197343bbd1e2ef6b11f98dc6fbc0433bb54e137e30f444d68bbfb",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "071591e094e4ebf599efc6bea2d01f61f2b0a12e812adde57533d93793b94c8e"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 218,
+      "end_line": 227,
+      "title": "Périmètre temporel",
+      "source_section_sha256": "c5d39e71f9e2600b024717b02ab41ba828d408eb2619a44690f30e221560493b",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f60bed4c83563fd5566c647e43042b19a2abd758d49d83d7c0713575d8097ef3"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 228,
+      "end_line": 233,
+      "title": "MOVEE — Cahier des charges fonctionnel exhaustif",
+      "source_section_sha256": "492e577f25842ce2407bee55e4dd61982108302f733a443aec79a99f8376fda2",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f3168dc28f45b7f87171af1df6bf0d94bafd45f7f80f4f2654eb82ab1cd89438"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 234,
+      "end_line": 239,
+      "title": "Portée et fiabilité",
+      "source_section_sha256": "a54b952ceb0e15c251c14f86b00497bdb1d4a7f9317af2901eace98f1ed08602",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "26a47eb707913eb3d291e9632e8e09a9a5b79a65b515e87db416cdf920057617"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 240,
+      "end_line": 793,
+      "title": "Registre intégral Q001–Q130",
+      "source_section_sha256": "d17d8c3962fe8678f7116e171e9fa87847a2c9c8da042e4cad1b08f45cae1d32",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b3ee8237a1aa5d108ba7e28693e8ca16e81b8796d9c4b06b435d2ffec2f8a9f8"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 794,
+      "end_line": 799,
+      "title": "Contrôle de couverture",
+      "source_section_sha256": "2129eaba1c44333196fe425068e845341c02a429b5054e568a5b427d90ecfe07",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "36bb1c044fcdcd61d601a48ed0ee2a7e3de86314152debccf3139b8b7da34c3f"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 800,
+      "end_line": 814,
+      "title": "Index thématique (chevauchements volontaires)",
+      "source_section_sha256": "94d058a8e36f682bb56e01d0ba81c417489f324fd27ba97e1741b56820268146",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "60d9b202ecc02e488bb349f08bafcd2ba674f0220c82a33cb6caadb648b1ae35"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 815,
+      "end_line": 823,
+      "title": "MOVEE App — Brief consolidé IA 2B (V1)",
+      "source_section_sha256": "bcc36ca267c2c6775aaa3ac6aca75b7bbf5efe65e5fd977951dd71c0681b898b",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e2ea4e41b12b101e4584ca9d801e462c695b3caf6b114483a12aa3170ce2db25"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 824,
+      "end_line": 828,
+      "title": "1. Hiérarchie des décisions",
+      "source_section_sha256": "4b01942c1a373cccbc25b865e37b7f2edfdac8774b5f263c32c8848741c9ee4c",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b4ab46c788e960f7be2ebe1e7542b9d496e29685f8cf910e5e4d244c635c97cc"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 829,
+      "end_line": 837,
+      "title": "2. Principes techniques non négociables",
+      "source_section_sha256": "0fbeeea01dabcf5d7dbc1a0471199a9adf80d88dd163c2b05ea11159621acca8",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "266a5f6408d5a3ac05d281a125a7c856037ce82e6cb194627baa6b110b4412a0"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 838,
+      "end_line": 877,
+      "title": "3. B1 à B5 — Réservations, crédits, centres et coachs (synthèse validée)",
+      "source_section_sha256": "9d17e5e7198da4c4fe60af149795f9daec2d7c31925f71c3c10207ef5848db1e",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "6ea27c3f2f00e214312e0e525161ca500f39f3410540cb7f8a65dcc0409ba213"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 878,
+      "end_line": 913,
+      "title": "4. B6 — Adaptation des programmes, douleurs, arbitrages",
+      "source_section_sha256": "fca24853c52277852e9934ec4815b25926978d0008eccafed5277bbc5e31a42c",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3e486c1db06efe5e1ed03458e78e2373911cb444e55ed2c58a3c1f44df71246d"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 914,
+      "end_line": 928,
+      "title": "5. B7 — Application et validation des modifications (10 décisions, clôturé)",
+      "source_section_sha256": "57a25b7d3082447647f9b77648585940f79f4d0b26c425301d994e098c386c17",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7dc0cb39ee577cd65a0aaa0295bf8ba45b7b1faf3190b79c7330ca1d0d818f54"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 929,
+      "end_line": 946,
+      "title": "6. B8 — Fiabilité, gouvernance et déploiement (13 décisions, clôturé)",
+      "source_section_sha256": "509f70912e947e9b5ac8afea7b7aafbfabb342b0261d776d5c170c2716cf4bf0",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e5882ee3ea7808d1268fd3d935e413de33a17392fd2c6c16d38393e10346b5c0"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 947,
+      "end_line": 961,
+      "title": "7. Contrats métier et responsabilités à implémenter",
+      "source_section_sha256": "a8e7d979e40a8d0a5e0f4c6d99fd79c86efc2648914981495e7a8fbb14dae063",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "045e0f734dd8dc621ecf67444abb81dd18e2c3492b3b63f83ef8435ecb462f3a"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 962,
+      "end_line": 969,
+      "title": "8. Vérification SQL ciblée (export joint)",
+      "source_section_sha256": "036d682d6c46fd9de29c4220939ae3af5dedf1a2b3fee1c8a7f984563d021ba2",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fe27e01f6ce54f64297314043fee0d62a86fea075c65c1f9b4d4e620ebf290c2"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 970,
+      "end_line": 982,
+      "title": "9. Dépendances, séquencement et recette",
+      "source_section_sha256": "06607a4483ef6f1c9800978c29a24982e2bc4fad891fdfa5927a541efb63b5c6",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ecb8be871831a5822133410725ecdfd5aa948146d7cf7dd216353e8aaccc441b"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 983,
+      "end_line": 994,
+      "title": "10. Critères d'acceptation prioritaires",
+      "source_section_sha256": "c792ae43f72b2b971b43ad3b834400e9b26259031331a740bf485971365d8314",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "125aecda8a64b541821185e7d9b5b2249183df6655bf7b5e0dac6e3ff4ce5095"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 995,
+      "end_line": 1009,
+      "title": "11. Points restant à vérifier avant développement",
+      "source_section_sha256": "e36ad23899f6ec7f8a3b9f79a61036345fa5854e80b29b133824ce7d0b7d49a6",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0b9eed88375f258b1f71181c476cf8d086883a7b82cc3e028150554b8a73883f"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1010,
+      "end_line": 1015,
+      "title": "MOVEE — Règles métier et traçabilité",
+      "source_section_sha256": "0f82bc8259d64de7ec4f90960a6ffb9d027732395feb9353694dacffc38a98d1",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1016,
+      "end_line": 1019,
+      "title": "Statut des règles",
+      "source_section_sha256": "f54db4547fb74148367b1aeaeb113e1eb87c31eee5d4b083a439f855655d49f6",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1020,
+      "end_line": 1036,
+      "title": "Réseau / franchises",
+      "source_section_sha256": "2987e71ffaf30d6b161dd746cfdfc4f60cdc4e8e0078163d2d098054d0a1aa87",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1037,
+      "end_line": 1056,
+      "title": "Adhérents / réservations / crédits",
+      "source_section_sha256": "6f5a43d5b88febf80ef8db2e8f202855faf9a8dcbd903f972af05a12d2a53af9",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1057,
+      "end_line": 1076,
+      "title": "Finances / contrats / rémunérations",
+      "source_section_sha256": "03239c3809a8641bc515e52c627ac80f338e8f006bd6e7ccad076d13879e9a26",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1077,
+      "end_line": 1105,
+      "title": "Machines / séances / maintenance",
+      "source_section_sha256": "3c755bc25e28ea508cadb7a724317ef624bff310b4ef82914d15a573ae5e9796",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1106,
+      "end_line": 1138,
+      "title": "Coaching / bilans / santé",
+      "source_section_sha256": "ba030129b335069f3001d78651759115631921e7efa280c19a6640657564bf34",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1139,
+      "end_line": 1156,
+      "title": "CRM / communauté / marketing",
+      "source_section_sha256": "c6098b6d995cf1c1152c3c82ee4d0e3f600e1629745e430c6a19e3ed12b9559b",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1157,
+      "end_line": 1196,
+      "title": "IA / sécurité / données",
+      "source_section_sha256": "3cd5ee707295b58fa414e504cc144d5d5ad4788e0901614cf0945cb0a3df2368",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1197,
+      "end_line": 1226,
+      "title": "Pilotage / livraison / exploitation",
+      "source_section_sha256": "3c2c22902cdf4d7cd078448ff73a1209e2bc78d39d8cbe5abba820cf8e4cd8f7",
+      "target": "MOVEE_FUNCTIONAL_REFERENCE.md",
+      "mode": "derived_index_removed",
+      "note": "Index dérivé répétant les Q ; registre Q complet conservé, AR01/AR02 évitent les anciennes reformulations ambiguës."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1227,
+      "end_line": 1233,
+      "title": "Conflits hérités à ne pas résoudre silencieusement",
+      "source_section_sha256": "4fba168c1c6df685b2bb8a8a2ef0daced93a134100be9a82aa88722c8a7570df",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1a77853a6113b83c3cdb7728ed3a03c2ee3d7d9c4b3f4ae4287365afc1c4c16e"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1234,
+      "end_line": 1297,
+      "title": "Paramètres non encore fixés",
+      "source_section_sha256": "0ce96cda9fd9c584d2fe93d98db419e9f69d8cb100cecf932d897d937b0f7963",
+      "target": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "10c54a2ecab26c0be82a36af9382b2ef97aa91d068eb05ba897195e3560083bd"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8e2ba3d0106fc6b353046c4d3ea7befc46b452610158f61e138dbf2d0b6f67ad"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 181,
+      "title": "Architecture logicielle MOVEE Pod — cadrage du 30 octobre 2026",
+      "source_section_sha256": "0509985e01e8caf7fbc06d337e09efccf76ce652b59507bbe4f66f60ee84b9ba",
+      "target": "MOVEE_POD_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "46b9eb9801a2f07c02794345015c961750481a28090abaa97857798e8b8ddcb7"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 182,
+      "end_line": 243,
+      "title": "Reprise sur le nouveau Mac — état vérifié le 21 octobre 2026",
+      "source_section_sha256": "a1be2bfc1a662714d6cedf3fbb5c809781dd2f187f6c2ec25b4e529bbdb95e39",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8cf4bdbfdb5e2ee267d6672ff3f3eb6270adc4dc1b6fec52aa03544b0e014dd4"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 244,
+      "end_line": 367,
+      "title": "Architecture mobile et contrats conversationnels — décision actuelle",
+      "source_section_sha256": "b78016dbeeff4237704a1532d35d81938af1d86ffc3649b1e75c65be1b8d71cb",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e3642c24b8a505a530cc2568afcae7bfaad8a4efd987e6cde4b3399ea9bdcdc0"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 368,
+      "end_line": 381,
+      "title": "État réel du chantier IA 1 / IA 2A / IA 2B (16 octobre 2026)",
+      "source_section_sha256": "4cf8dd5dca47ecd2e7b28c23b8a796594f567ac735eaa16ad8d681f3e0cfe8c9",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fe67c2afb855e0cc2ba1a3e1be720261d655995fcda27cf400d7ed0036f8d877"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 382,
+      "end_line": 446,
+      "title": "Exploitation et reprise — informations conservées après archivage (16 octobre 2026)",
+      "source_section_sha256": "f5c35023a4eee76fc161096db66565b5e01f75492f93b96e028a7fdfc86ec99c",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ead9b9e045bfb10f5d8f000532517a22e1020426351a7861e250521fe7e0db70"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 447,
+      "end_line": 463,
+      "title": "Références documentaires canoniques",
+      "source_section_sha256": "1649688cef82d60b1e1a73c6bf167861027849f2d556e84b5b7a7227876c9646",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règles uniques communes, sans dépendance aux anciens dossiers."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 464,
+      "end_line": 490,
+      "title": "IA 2B — Persistance des opérations de réservation",
+      "source_section_sha256": "b59939cf232d4773433ec8145661588b49213c3e73081f0e67266521a4c42c29",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f072ef380399b1de1af1d00ed00bb0637a4252a1f306e86490896359b9170c93"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 491,
+      "end_line": 496,
+      "title": "MOVEE — Architecture technique cible",
+      "source_section_sha256": "2ee698542815b5e6df5b685b53471179c9dd7b0a69839755e8556c59c4f0fb8d",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ddcadf2a41129cc057ecf739cefbd7a392889234677fff0e94fa7ae7b5bbb775"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 497,
+      "end_line": 506,
+      "title": "Architecture obligatoire",
+      "source_section_sha256": "830b8b7e06b42b7f7c0108d636345c3e84c1dac7935b0465192523511279a5c3",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8b7958a64fc04cb91d9a042015bfeede1a98e325ab65537f016432328bf10f3f"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 507,
+      "end_line": 512,
+      "title": "Framework metadata-driven conservé",
+      "source_section_sha256": "3da6ef77813f988b9b00a05b6b0e814da72292c192f942be9890b64dbccdc6fe",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d2a67ee2b4ef228e4dde704d6826a6324a48d52124ebe408cae19e23040cd7c1"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 513,
+      "end_line": 520,
+      "title": "Périmètres et identité",
+      "source_section_sha256": "48660c04a4298a7a4b01f86b0d5aa7b32c7f85477024e5c9eee55b8962a98b91",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3d563c78869ad4a24c73161bd5100c0ec9505e087f85b576c4cccfced4325a35"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 521,
+      "end_line": 559,
+      "title": "Sous-systèmes à concevoir sans préjuger des classes",
+      "source_section_sha256": "eb62a7c643fc8caf08d5276beb80b615d3e740075a3887ce220a359dd8dd62fd",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "aac767cf5a7efcb361ebf4b5a6940164c50ab8ee9e931f6bdf2c5486dbd135d0"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 560,
+      "end_line": 563,
+      "title": "Capacités natives de l’agent IA",
+      "source_section_sha256": "c81c5e674018d2b4ec254e37350ef1b4e244b7fcdfc987518fe7e975639ec4c0",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "28b3669b14c14f9cb6dc1fd47a6d8c46bf50838c5acc239277b00b8c47da6dd3"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 564,
+      "end_line": 573,
+      "title": "IA et sécurité",
+      "source_section_sha256": "74c6fe67fd177d75945603865662751d9fef8976d97adac8a60afd4723955250",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8e903b9aceafbace6ab0f9d414e5b42372510c72ad99736f2c845177f16f3b40"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 574,
+      "end_line": 581,
+      "title": "Hors ligne et événements",
+      "source_section_sha256": "8c245e40e68e544f3e1dfac28b49a62ff8812392125fa54d2e895bd3adfde1d5",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1a57780c12c2fe124823e120a1354cef1f1b5eba5de18c934d413ff70adf28c8"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 582,
+      "end_line": 586,
+      "title": "Règle de modification du code",
+      "source_section_sha256": "e74f84cc277ba026dd2321155f0d1da5496d04a1bfa400f2d52bcf90cb1f7fa5",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règles uniques communes, sans dépendance aux anciens dossiers."
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 587,
+      "end_line": 593,
+      "title": "Réalisation chantier 1 — phase B",
+      "source_section_sha256": "47d6f6772e1d89057d1fe760c3a08467ad0c99a784aec494784aaa825a86e8b4",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "95722df44b217512987d8cd4270454c89416141ee124c582a62f8d1d8b2ce8cc"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 594,
+      "end_line": 599,
+      "title": "MOVEE — Modèle de données : existant et écarts",
+      "source_section_sha256": "e35e83cdef51273c1c1a1a99d35254d117c366120cb1f0c1fc1d87866e6c900d",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e5cd5d8ecee9a6cc96afafd6aa546475159807272fd8ef2f41117e31dc1a284d"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 600,
+      "end_line": 603,
+      "title": "Source physique et limites",
+      "source_section_sha256": "2bb6ab0d558d5764c83449e2981dbfcfee679ef7657af326d894d90aa773c3a6",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "15d79801769c5c95545fa3582d1a02bf4de99c599eec53be1ea876e064da6402"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 604,
+      "end_line": 607,
+      "title": "Inventaire physique V1",
+      "source_section_sha256": "18a5b3e1584e4ac519db8aed172d8e532d0c86692d4f57f0ac12d95b773eab9b",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c96b46f22bc6f0e299a9a92e41082fbdc2329a3d2afc5fd5897a6435c430b846"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 608,
+      "end_line": 625,
+      "title": "Matrice d’adéquation fonctionnelle — hypothèses de travail",
+      "source_section_sha256": "e998276cd20d757343784ac2aebd58a075381d92fa508ec6917b8f06edbc9b84",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3d9d2ef798585573f97609c4c95ce3b6216ebaf5ec761df2dbc2df65c70ffd66"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 626,
+      "end_line": 633,
+      "title": "Interdictions et arbitrages",
+      "source_section_sha256": "2a901e1d4b1232ee25ab0b95ca25fa4fd5ca2a7187d91b39806c573eaceb47e0",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b1957a9419a8c1156d1390e84f422596c5f518dc8d83f7a625d0693518675a05"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 634,
+      "end_line": 645,
+      "title": "Étapes obligatoires avant migration",
+      "source_section_sha256": "b243e7f60d83176d62f0f42eb675e1657f2d071759362f4ca09bfbb47f89a2cd",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3852206f3087c7e537895eddd101bdfc663cbbc13646b7c921fd98a100bbeb6c"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 646,
+      "end_line": 651,
+      "title": "MOVEE — Modules, priorités et feuille de route",
+      "source_section_sha256": "42f920c945139d2399414a2ec539db8cc37fb04156384e4313220f19a01eb141",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "790e8fe72ae4095833c751985a1912cbf20f2b3069b204c35bf7f8d72efd37db"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 652,
+      "end_line": 655,
+      "title": "Statut",
+      "source_section_sha256": "a6e5b1fa9ecadb52b06eaddb1930c0ab15731ddf0e49e981493bd3d5ebee6994",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2c5302075c896835bce62790ad62fc34446c81a816130be16386786fa40c4eb7"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 656,
+      "end_line": 667,
+      "title": "V1 — capacité commerciale différenciante",
+      "source_section_sha256": "6bcc84f48823729eaeadef7baf5653b2054dbf35977f0d11d159dbbb3fa9b299",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "00b618919a4848bedc1cf6fa4c963b241cb82736832de5cfb7266ce1f8413d1d"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 668,
+      "end_line": 671,
+      "title": "V2 — extension commerciale (proposition)",
+      "source_section_sha256": "9b171f0452d0f13406a1388c9761563bafb711db559742ee95557cc4f8ce1174",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "6ef6da0391cee114b09bc27c70ffff0ef194b295b077890df3d54361f977d8be"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 672,
+      "end_line": 677,
+      "title": "V3 — automatisation étendue (proposition)",
+      "source_section_sha256": "1eca7090010d8fd4a66db866543ba9d25ae964547676f7c36ca0f53f82772fec",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e5162a2495fadac2352c346fb8a3bb7e08dd9d70a7172051682bae28b26b9cad"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 678,
+      "end_line": 686,
+      "title": "Dépendances structurantes",
+      "source_section_sha256": "98ce4b94fbdedebee62775f38949a42d46158c59acf3d46292581a80b463d293",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a702a1f094006fcbd803e18f5a95d1f9ccb38d5718bd00f387aaccedfe626a58"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 687,
+      "end_line": 690,
+      "title": "Gates de livraison",
+      "source_section_sha256": "29865f5264bab81fb1e4527f5f2e312227b3c09188975160e91b987d930da93a",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7813c434849068f2d80e9a5ef0d3c2e2ae8382d334c82ebf7d34c9a5afa96a64"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "start_line": 691,
+      "end_line": 1134,
+      "title": "Registre des décisions de planification",
+      "source_section_sha256": "d530c869e34756a5b7f7917bb7d7603a403fbba76d073a1967aa5b7a2d07e159",
+      "target": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "56316e93a3c08400a18b4b67d3bdc499ef42ae020190517814b2ec58fe2a8da8"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c91e78393347391766d847bdca9a00a2b052f24f2ac2a00c8021a44f5ad3e078"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 8,
+      "title": "État courant et consolidation demandée — 31 octobre2026",
+      "source_section_sha256": "d718110c541043ad8ac2dd864932a323d03fae38496c4f2ce6c3710fd1c9d79c",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3f76b3676ef079d200ee2e8c5ad533a05e757cbddcc941cf16b86f6100421d35"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 9,
+      "end_line": 15,
+      "title": "Programmes et médias — lecteur14 codé, installation en préparation",
+      "source_section_sha256": "af02181ac2ca7fd629bd84f9567de78ee922f936890ad678ffd22e884964fcc4",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3cb510960387f4e244c584f4e493955bfd13fe093e25288f1e8bf7b880dab28f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 16,
+      "end_line": 22,
+      "title": "Langue dans le bandeau — 31 octobre2026",
+      "source_section_sha256": "1d5958e23c83ae0be3c2f267b9f32c40d21fa4b87e3c100fba33614661cb5c8f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "13fb0a19dd11a348f87b933a9921bca1ac7894a65fcd61e3555bd2b499b4a3a8"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 23,
+      "end_line": 31,
+      "title": "Design system commun Light / Black — 31 octobre 2026",
+      "source_section_sha256": "a103d26d0d1dc57b9a9b789175efc42f1268c2bf1f86005d12737dd0353a80f3",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a8a751050fc95c6200d529c8a07aa165f5dc13bbb32fa697a323c10304e6dece"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 32,
+      "end_line": 43,
+      "title": "Installation et activation — 31 octobre 2026",
+      "source_section_sha256": "51a3a0b3eb07a3a74b6807ed37aab0b368c699f26b2795f3e13cf982f3f65ce4",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2eda70be7fbade109b53e1bc614407a435ad1a6a5162bc5eb0073d7df5b06894"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 44,
+      "end_line": 47,
+      "title": "Parcours adhérent validé — 31 octobre 2026",
+      "source_section_sha256": "861b24a11dce29e342e01d25cedbbd040cba8770287d46592a113dc590afa88a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "31ed52b8b148ce449812306704c3d66ab06b118b55e5fe38e3b8ef23273ceabb"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 48,
+      "end_line": 53,
+      "title": "État courant — 31 octobre 2026 : profil 12 actif, correction coach",
+      "source_section_sha256": "b61b226588cc2dcaf3ceb22a45d8b2bb16a7811a2db89acc1f579acafee56d74",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "6dbadab24e0736ffb9e8db1e4009811b2a313f1842865c2a5311bf65fb3830aa"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 54,
+      "end_line": 59,
+      "title": "Présentation en blocs : réalisation relancée, métadonnées seules sources — 30 octobre2026",
+      "source_section_sha256": "372d82c57d5470cef8180f5a5457b1e577f0529a1467f695412fb79d8fdcf5a7",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7beaf8ece0b24a53871077e248aec713babc3f65c7adfa3d42696412557ca938"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 60,
+      "end_line": 65,
+      "title": "État courant : v11 actif et jeu de recette complet en préparation — 30 octobre 2026",
+      "source_section_sha256": "d7c2d428b709a2b1f2c6e7b46fb9cce7c3264b300702ba53a4105fc9f3369c14",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7d8d2e8c5fa8da7f8a47f5e7473f9ab8b63bafb95bda0bb4692922058039185f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 66,
+      "end_line": 73,
+      "title": "Espaces adhérent/coach v11 : code et tests livrés — 30 octobre 2026",
+      "source_section_sha256": "1ad6dcc5bfbee570b0904f44412cbf273cac10b4ba8ac64dfa130df25a0a1245",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "532c919c904fd50af9e1d2cbcd95684162ce034b052b2262a69e459ad98a3dae"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 74,
+      "end_line": 79,
+      "title": "Parcours : décisions planning et multirôle validées — 30 octobre 2026",
+      "source_section_sha256": "1e5d3fde373808d623d91f8874cc20d6eca76d4a5f8f6924be750abf43dd9561",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0a0e31219f84286e8026608cda9fb4653c11ab6b8df12bc37d9fee90452ee3ce"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 80,
+      "end_line": 85,
+      "title": "Parcours par usage : séparation validée — 30 octobre 2026",
+      "source_section_sha256": "dfb4dad9d123c6904cc43f6f9b40535f4c812eafbd2742d1c46569859ac896bf",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ae23b3e641c2b32ada07ad1ccf4e7505c796ca3267598eae25c21ba02674a331"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 86,
+      "end_line": 93,
+      "title": "Correctif connexion : renouvellement du formulaire — 30 octobre 2026",
+      "source_section_sha256": "11debcf48cdcc418b85207a295bacf0d0fa677370012b3c6804a3794b2197349",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "099803e2d8d42d5c3a6bf7d17a8f790de881780032e6180ffa12ae2a51997229"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 94,
+      "end_line": 99,
+      "title": "Catalogue : métadonnées installées et Backend actif — 30 octobre 2026",
+      "source_section_sha256": "67198e9702c84050926f63dd2ee6c029905fca9905705f34b0a3a9d86d4359b5",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "05b99d3e96015d0da369167fad85fd27de05971b390aaaa5648bce7285821596"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 100,
+      "end_line": 109,
+      "title": "Catalogue multilingue et médias — code prêt, 30 octobre 2026",
+      "source_section_sha256": "7e5fa883552f2b531ebee4f7e03bb58ba7320d7502204e70a2b335e4276ddde6",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1d0348039600213c03b4610d6dfe5ec08449113d364fb8b87f4142b907cbc5ad"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 110,
+      "end_line": 118,
+      "title": "Libellés communs appliqués et activés —30octobre2026",
+      "source_section_sha256": "868aa32600d8d41adbcb1354911c5d9382125392a394a76bbc3519e4ebd29b02",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f2ae6f4050d7e3632fe2305236d44d0f96cae2e8514070d9e54c7bdf8368e1ab"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 119,
+      "end_line": 125,
+      "title": "Vérification du schéma commun de crédits —30octobre2026",
+      "source_section_sha256": "ae6338ef982399e0ba8e5968f094df25948c39b61cc698c928d3bbb536912c9a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f11dd31bcaa285f4a398ebef66cdd92db8c80713b66f2b0f8bf80988ec1f5bea"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 126,
+      "end_line": 132,
+      "title": "Traductions communes autorisées —30octobre2026",
+      "source_section_sha256": "3cd492e430a6ae46428fbd0db8ea7dd3ca6ca22aacfb51aa8f7562f35676c0cf",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "34246158c67c87b95493d0417c4f8dca4233f9cc2e46cda3359ba592b0645e24"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 133,
+      "end_line": 145,
+      "title": "Nettoyage des composants et libellés —30octobre2026",
+      "source_section_sha256": "8c0ed091e52b3d7e97bb504de76ea63c8f6f3066cb316ff0675d02026ffe4754",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f65d0c94e4f2409fe85ab7ba6a8e93c75899fcfa9e36b947e6efaa8b30f49b09"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 146,
+      "end_line": 154,
+      "title": "Connexion déclarative installée et basculée —30octobre2026",
+      "source_section_sha256": "51e54fb1c873bb8f6ef712c8a9760d1e8c39ab76ecb7023e5292be67364e1152",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c507b87cff3c7b2ceb7ca594b3091fdfbaf93e402868a6fb7fd2c4ec373cb4b0"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 155,
+      "end_line": 159,
+      "title": "Connexion/reconnexion déclarative — code Mobile prêt,30octobre2026",
+      "source_section_sha256": "0a538c760250153c52e1ab2126e0de891ba2cc7db273279a0b6326d6d2eb792b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8f4fb842b7570819c4db1333e7e9cfb0f52bd964154fff9bab18fd868fbfe463"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 160,
+      "end_line": 170,
+      "title": "Accueil/menu déclaratifs, retrait des écrans et ergonomie — 30 octobre 2026",
+      "source_section_sha256": "f2cfcf4e1404be9d1a40b7bc717404458e5eb606dad50eeceaade29b2a0d3023",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "986b76014c84d7fa33f2e0f43f26c325ed2ec3301058f0db7bb69f63845d357b"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 171,
+      "end_line": 181,
+      "title": "Recette Chrome member_a — 30 octobre 2026",
+      "source_section_sha256": "6c18af789d5f4218b35657015a2ae3a9e19bc9fa04d3a4d6bcbe59d76efc7f4d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2c009dbd70b537c85c12c4ce6abced1e961f95667716e969a664f4362846c26f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 182,
+      "end_line": 190,
+      "title": "Bascule intégrée v9 — 30 octobre 2026",
+      "source_section_sha256": "dc4e39db805fccbc59bde1c678271a8e9e294634c16fab8f941f9824ab083e4d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "21619b962cc001095a74b29bf476a704a9a8eae08a98a95578c4cea00ee88068"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 191,
+      "end_line": 194,
+      "title": "Poursuite groupée autorisée — 30 octobre 2026",
+      "source_section_sha256": "99a3889c3b4853726e7d39b8f5d1a185f9564d2805623b958e7422d3a0df2f19",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8780d5ecb775d895672d8e7d9e07e5817d391b69b02189b922fa418172a93f26"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 195,
+      "end_line": 198,
+      "title": "Accueil/navigation : prochain lot engagé — 28 octobre2026",
+      "source_section_sha256": "8e60bbd163c63d788b56f4977a66d6e961aff4cefe38f06bf58e9c7385f265d1",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5bb8b251a11785aac305d6a03d371bbe5e98b9c2d33c2e295b29a3eb37751761"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 199,
+      "end_line": 204,
+      "title": "front_type installé et lecture native v3 recettée partiellement — 28 octobre2026",
+      "source_section_sha256": "3e23d1bf6d3f1837d820d3b1d7ccf92a41e364f5bd864be3a8a8499a8f8f9009",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d9de66056c390b4a489d11d10d280af66e65bf841619ae35a1c2bc58caea33e3"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 205,
+      "end_line": 210,
+      "title": "Actions natives v3 raccordées en préparation — 28 octobre2026",
+      "source_section_sha256": "c15f8b4e6ddedd08e5d16263bd021a25b24e0ede4ec5ea99a960645585129e5f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "19f8af5163b18f70d2de8d2baa93347bd766054ffe262d17af746027932ff9a2"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 211,
+      "end_line": 214,
+      "title": "Préparation front_type reçue, runtime manquant — 28 octobre2026",
+      "source_section_sha256": "b526ecb5a4269f759eabe77a9e7ec58933af545299efe98d4857af65e1f243ca",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1dfa5f322537da0eb75cb4e229550a99535e7ccba6905b442d34c9fe4f70e9fa"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 215,
+      "end_line": 220,
+      "title": "Sélection du frontend validée — 28 octobre 2026",
+      "source_section_sha256": "dbc2594772e3003bebaf321319b3027933ac8f78f42495cddd4285986a47d3d0",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "218be573cc1d9e5f04682e82caa87c16f4b64019ce7aa46517125cddd511be84"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 221,
+      "end_line": 224,
+      "title": "Recette partielle du lecteur v2 — 28 octobre 2026",
+      "source_section_sha256": "7cc75816502e9013de7913f538246d8bfc387ad98952b6e7ad24d829e1477245",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d77777aa74fc3a2c6bdc3b732c84222510d7bce3a8fe1f40c099e03a1e03551a"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 225,
+      "end_line": 230,
+      "title": "Lecteur commun v2 préparé — 28 octobre 2026",
+      "source_section_sha256": "197fbea5780d3384d2fc2306e0131ea87d96363b92b062c2a3e06e6ccbb67c2c",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "320f09416bd8e3bcb00da906787e7bc9a3dbecf2d29665bbe4d7146bc0f1f99c"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 231,
+      "end_line": 236,
+      "title": "Reprise intégrale sur le framework — 28 octobre 2026",
+      "source_section_sha256": "b23e7a51a41f60a41777246eacfdac0fc8fe2a57aba95aa857c20a3a1d8406e1",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "276b5732a5ee8c250d1c41b5eb8ba3d12f986b23ff3fac96c0c6b3492501dca5"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 237,
+      "end_line": 248,
+      "title": "Préférences et propositions raccordées — 26 octobre 2026",
+      "source_section_sha256": "d0d0d489da83d5c9a27be3e5e55e99248a4b790b8b2ff467f7b3aa80ad96ef5d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "44bb89d2170044a8a50f61328cea6e4c8297dc3b30708dfdb0ba2aa2db29a012"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 249,
+      "end_line": 255,
+      "title": "Préférences Backend codées, installation requise — 26 octobre 2026",
+      "source_section_sha256": "436bbc85421a44d24672c0bc381274b337f061f21a0dab4684898e0dfa04d88b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7ef162c8c133c27de7537728c8249913d4716613e0cf6c50ae30ad4d3ca7335f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 256,
+      "end_line": 262,
+      "title": "Préférences et suggestions v1 validées pour codage — 26 octobre 2026",
+      "source_section_sha256": "a309f4e84f5da2d66a3b30493506a8daf623e9143fec022a30d620092b612daf",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "21ca54aaff73d10321428988d9ee8af82a44f3f07dd3cb3a803a7ac79811c595"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 263,
+      "end_line": 271,
+      "title": "Préférences horaires avant Bordeaux — 26 octobre 2026",
+      "source_section_sha256": "48cc2e890251f16c0f2f997267b8dd72d82514fdcadd1f3818310b0aae6f69a9",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "785b075eeb84b43c2720768c415c5b35f21898a223d7f42ae999bf2539995885"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 272,
+      "end_line": 276,
+      "title": "Centre de test Bordeaux : horaires demandés — 26 octobre 2026",
+      "source_section_sha256": "37ca5b83e34df2fce25103c05bf4492301e3acf8a245c83e431cb8c8d7a9ed9f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "07b834d5bcd4cdb37f585d2a0376da3286aeb21c204ba2485d5be597c00df891"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 277,
+      "end_line": 283,
+      "title": "Catalogue et formulaires installés — 26 octobre 2026",
+      "source_section_sha256": "eeee6f292a18abb0bfd503643eff2a9761072f422dc1178b82c5da7f1299aa94",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "553f1a894061f8b0f992360c73114e777d4d80999009d8b2627063f6e44a459f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 284,
+      "end_line": 294,
+      "title": "Paramétrage Backend livré, application en attente — 26 octobre 2026",
+      "source_section_sha256": "fe6965904c591ef5df0c0d89983d529c6152e7361fc3682f8aadad9f4f76722d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "bb1e3e57e2909e8670421139ce18261b226178911e41a4eaf1c2a5b997b231ad"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 295,
+      "end_line": 301,
+      "title": "Durées et horaires paramétrables — décision du 26 octobre 2026",
+      "source_section_sha256": "1d51780a760874936f0fac5bc2f5803ff5c8d8eb7fc99846c15631ff92c3a4bd",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "63c25dd1131d11b01deba2a5f747215d96f1e7084a84f089099c318759e42d5d"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 302,
+      "end_line": 312,
+      "title": "Réservations à venir raccordées — 26 octobre 2026",
+      "source_section_sha256": "88a3b16149336b65b35d47b68a5ced0c2ca25e19fa3d351eb9c706a38fc6ba3d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fec1e63ea29ab57f89f165ad060f925aefa4cb23d03926127e2405708804e5db"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 313,
+      "end_line": 323,
+      "title": "Planning : calendrier et horaires — 26 octobre 2026",
+      "source_section_sha256": "7335d8d7b79c4376cdfebfe2ec1cddfc2ce3a15d0fb6d3219ad5a4affd5894ac",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cb6c16cee5dda0c3fef8634fe0b1cfe11984c054e521dfa899fc510020b6d030"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 324,
+      "end_line": 332,
+      "title": "Identité visuelle MOVEE — 26 octobre 2026",
+      "source_section_sha256": "f4631d185fafeb31107d3ea07d0193697a5364069b72dee3d67409cc1999590a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "772000a47d35bd42718bc30c79daec6a5623de08a995c4bcee203591e3adc613"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 333,
+      "end_line": 343,
+      "title": "Ajout, annulation et accords de réservation — 25 octobre 2026",
+      "source_section_sha256": "5c0645382dc395da37305ac575022df8b2079c0b2a0b0d1a501f84f8981cd03e",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d70c647a917a0feb8b1b25482097c9fb1b40af49827d16cb8334becc6c9e02ff"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 344,
+      "end_line": 352,
+      "title": "Lisibilité des fiches programme et résultats — 25 octobre 2026",
+      "source_section_sha256": "d8938fb705c15365778e7945950ca4bc070c00b4011a3781501e1353aaab9159",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a1ee28e17525404ecb0bfc43f48418b050ec767d3d41c6d20d5010594a0d05ba"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 353,
+      "end_line": 357,
+      "title": "Retour de recette utilisateur — 25 octobre 2026",
+      "source_section_sha256": "20255c35cc9ba3568a41bcd3de1390ac91b05f91a93e44c94e04bdd6dcf40d47",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "26655a76fd3a6dac997e610d03059cecf52b886293f025aa56b46a312d736de8"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 358,
+      "end_line": 366,
+      "title": "Environnement supervisé et recette web — 25 octobre 2026",
+      "source_section_sha256": "77d1c50d10e2938d8a1e3dba1c12653b5cf591b73ea0a3a499a7cd3318ae4a29",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "9bde6b3d9705531ae3829e69654e2daef9bf045370e0bd3ef141de26c570af73"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 367,
+      "end_line": 379,
+      "title": "Simplification UX des consultations — 25 octobre 2026",
+      "source_section_sha256": "6a8cc834b13775ccd8577e4fca7797af5e45724367e844954d4989e0350c8e3d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "42eeb49e9eaa50f15a3bcb9fbe5f17cc917fe84cbfe2532f4801641242b9e6da"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 380,
+      "end_line": 394,
+      "title": "Consultations classiques Pages v1 — 23 octobre 2026",
+      "source_section_sha256": "90f6a9d01a9f7431bd09b4067d495c7bdad61659757a04d8a96d950b8db9e25d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0b5ffee610157607e484b3810a1557bf7d2725003e873a2fa188bda749efac55"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 395,
+      "end_line": 403,
+      "title": "Lot local accueil et navigation — 21 octobre 2026",
+      "source_section_sha256": "fd58ea449f444a71b40564773f847eddfefe2c4cd63d94eba7a14e222ed41074",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fa5c149a1b2bb7fef56ae30ad0216a6ac1b64542acc30f8d00800793205b3bed"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 404,
+      "end_line": 422,
+      "title": "Actualisation de l’état local — 21 octobre 2026",
+      "source_section_sha256": "c42efa24c37e1fc3870e47ad3e975334e11d62005701215ecbba85d10d9ff1f2",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "76935b97ac252a538711d08fceff30dd1d7a457ce0748c366a522150b28af382"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 423,
+      "end_line": 433,
+      "title": "1. Sources et frontières entre projets",
+      "source_section_sha256": "6e8b9fc68eb5789c7d52b92668b2bee8a11f40a895b0e87e82ba9f78133b21c2",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "be8c2ba8f21fbea8957501fa628ada74cdc47d175d4581a3354affc6d86b7622"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 434,
+      "end_line": 576,
+      "title": "2. Vision de l'application",
+      "source_section_sha256": "9d2b212b672da3be87d73a98c80866eb304ea8434486c0c55270ae92c5d298f9",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b323ee3db29b922c193987c9f39398ccaa2aac79266ad449140d1a9334a82601"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 577,
+      "end_line": 638,
+      "title": "3. Profils et contexte",
+      "source_section_sha256": "3f50f7925a7cb205fb13e1bd96bed43e436d1ccdd5cc083ea0e9f91a677e3cca",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "98d6cea5442967953ecce35420b98ad83a9a4c1332a8e2b110c8642eb3e40bb0"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 639,
+      "end_line": 671,
+      "title": "4. Accueil et proactivité",
+      "source_section_sha256": "6904c5dd9197ff8c04f04cdcddeaed22f569b73d8e35748a0698a6f8462012f3",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b70d8ab9cdf187a88834d6f300cfa7ff7455b5f64eeb58a81463c12e1d72275b"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 672,
+      "end_line": 740,
+      "title": "5. Conversation et composants visuels",
+      "source_section_sha256": "3ea4b8f986559091d8def76f9ddd5f54adaa4564621ef1a94b18c0cc2072b7ab",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "35f52537ad39bd3327e12b892d80c6ee1dd5cd803342062bc7e40c79cd0bcd2d"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 741,
+      "end_line": 780,
+      "title": "6. Parcours adhérent : réservation et crédits",
+      "source_section_sha256": "cfca69e45b98b8b724be5200d61669f22bb4cfe4e84a413f6d7bd327ddf23d68",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "4f3dfb6fd01ebd707b93f7b6bd9cd2fdf16851c8c3419d9c1994955d513b08de"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 781,
+      "end_line": 830,
+      "title": "7. Parcours sportif : programme, séance, performances",
+      "source_section_sha256": "bf403888b831452a7c01b2fe67b421e0e383934b9eb9f41e2513b5d911c7bc4a",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e13634139673f2ffe409e61d3a2f43b38822a3564aa21719381679205d2e6719"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 831,
+      "end_line": 844,
+      "title": "8. Douleur, restrictions et réévaluation",
+      "source_section_sha256": "0bfacd4fa80286e436848b5c99380ffe73c343c30d9d506d47e0cd6cb253521f",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "946ed9dae369729acd11be962031a0e7f10e6eaaf1e17d832609b3c7da1dd1d4"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 845,
+      "end_line": 909,
+      "title": "9. Parcours coach",
+      "source_section_sha256": "76bcad8ea408a2a8f62919699679c4178afc7f1cea8703b3010c2c5f3c2146ab",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "daa30f7bf86bf1587ea5863a6e189bc62a05d78582614996ae0130bf9ed2e367"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 910,
+      "end_line": 966,
+      "title": "10. Notifications et préférences",
+      "source_section_sha256": "94a5d46baf34a095924e5c3c694924a6c69522858fc474e8717879f374bcb782",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5b2109b237f442b160f5a6d7148636d789cbeb86a4819b4a0658134b44e8a13a"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 967,
+      "end_line": 1014,
+      "title": "11. Continuité sans IA et connectivité",
+      "source_section_sha256": "ae63f00f3cf369c4d555db0d21552d69c5ab2c5ead8a9d334fe3b2afc1997099",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "54a73bd041b1bd36a38b927ccfca74fae6c9193f3c9900e8a3f954d36fc8f62b"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1015,
+      "end_line": 1065,
+      "title": "12. Confidentialité, accessibilité et confiance",
+      "source_section_sha256": "f221c29c4854de790de4e0fded08e40a9c6371b4117e01f6c4bcd52c75d9e787",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0f99b9ce0ee0412d6de1a6e3baae763037b30b6ed98acdf9722ced4345a0303c"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1066,
+      "end_line": 1079,
+      "title": "13. Catalogue de parcours et maturité",
+      "source_section_sha256": "f48bf8cabe495f627477ea59d691b3145b747479564a5ae326760e120a0418df",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2ea24ab552fdddd0b15ddafd4e2a6206b7c83bb3c2d5aedb9080a2d59a9df660"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1080,
+      "end_line": 1182,
+      "title": "14. Critères de recette fonctionnelle",
+      "source_section_sha256": "f4dff6cdd9cbe50c5c9e24d79cff0d4d6070ca2babd8aacf41a74c21a712d90d",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b18787aa82d32887f159fbb0d2cd2bf0ab440a84e65bcce6824fe8671a615cde"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1183,
+      "end_line": 1204,
+      "title": "15. Arbitrages mobiles restant ouverts",
+      "source_section_sha256": "ca2e5e2b2241497c191b0a0c3965195b18dff1dc75af90a99893483a565d3903",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ad397e29583cc56a4e9ef616afb3583e27d0b0c6d2befc9d8df43c1758036097"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1205,
+      "end_line": 1207,
+      "title": "16. Règle de mise à jour",
+      "source_section_sha256": "4ea0f119fa6ba0824da5411b0701d873c13769f61a35714541efaa82badc92c5",
+      "target": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b03031477c6e40002ebe38180226b3954be29a3653fd9a352c3f4fe6176aa367"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:2"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 8,
+      "title": "État courant et consolidation demandée — 31 octobre2026",
+      "source_section_sha256": "0fb72aa7217b3cf4c45246345410efb452e9b9a6b45c39ea28ceafc858b1c673",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "6dcb65f4cf7eb913391078a677019c5764ab0babec6dec4448719dabeb970d7f"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 9,
+      "end_line": 15,
+      "title": "Programmes et médias — lecteur14 codé, installation en préparation",
+      "source_section_sha256": "af02181ac2ca7fd629bd84f9567de78ee922f936890ad678ffd22e884964fcc4",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:9"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 16,
+      "end_line": 22,
+      "title": "Langue dans le bandeau — 31 octobre2026",
+      "source_section_sha256": "1d5958e23c83ae0be3c2f267b9f32c40d21fa4b87e3c100fba33614661cb5c8f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:16"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 23,
+      "end_line": 31,
+      "title": "Design system commun Light / Black — 31 octobre 2026",
+      "source_section_sha256": "a103d26d0d1dc57b9a9b789175efc42f1268c2bf1f86005d12737dd0353a80f3",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:23"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 32,
+      "end_line": 43,
+      "title": "Installation et activation — 31 octobre 2026",
+      "source_section_sha256": "51a3a0b3eb07a3a74b6807ed37aab0b368c699f26b2795f3e13cf982f3f65ce4",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:32"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 44,
+      "end_line": 47,
+      "title": "Parcours adhérent validé — 31 octobre 2026",
+      "source_section_sha256": "861b24a11dce29e342e01d25cedbbd040cba8770287d46592a113dc590afa88a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:44"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 48,
+      "end_line": 53,
+      "title": "État courant — 31 octobre 2026 : profil 12 actif, correction coach",
+      "source_section_sha256": "b61b226588cc2dcaf3ceb22a45d8b2bb16a7811a2db89acc1f579acafee56d74",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:48"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 54,
+      "end_line": 59,
+      "title": "Présentation en blocs : réalisation relancée, métadonnées seules sources — 30 octobre2026",
+      "source_section_sha256": "372d82c57d5470cef8180f5a5457b1e577f0529a1467f695412fb79d8fdcf5a7",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:54"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 60,
+      "end_line": 65,
+      "title": "État courant : v11 actif et jeu de recette complet en préparation — 30 octobre 2026",
+      "source_section_sha256": "d7c2d428b709a2b1f2c6e7b46fb9cce7c3264b300702ba53a4105fc9f3369c14",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:60"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 66,
+      "end_line": 73,
+      "title": "Espaces adhérent/coach v11 : code et tests livrés — 30 octobre 2026",
+      "source_section_sha256": "1ad6dcc5bfbee570b0904f44412cbf273cac10b4ba8ac64dfa130df25a0a1245",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:66"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 74,
+      "end_line": 79,
+      "title": "Parcours : décisions planning et multirôle validées — 30 octobre 2026",
+      "source_section_sha256": "1e5d3fde373808d623d91f8874cc20d6eca76d4a5f8f6924be750abf43dd9561",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:74"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 80,
+      "end_line": 85,
+      "title": "Parcours par usage : séparation validée — 30 octobre 2026",
+      "source_section_sha256": "dfb4dad9d123c6904cc43f6f9b40535f4c812eafbd2742d1c46569859ac896bf",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:80"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 86,
+      "end_line": 95,
+      "title": "Parcours adhérent/coach : diagnostic ergonomique — 30 octobre 2026",
+      "source_section_sha256": "8e9d559cc2539bd7e3666db8aa370ea27d9b7f84d459fe39e660471ef018e9f7",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "21dc5a76f07058b3392d64f121f56a9e9f697c1a1a41a4568aa0514640899941"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 96,
+      "end_line": 103,
+      "title": "Correctif connexion : renouvellement du formulaire — 30 octobre 2026",
+      "source_section_sha256": "11debcf48cdcc418b85207a295bacf0d0fa677370012b3c6804a3794b2197349",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:86"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 104,
+      "end_line": 109,
+      "title": "Catalogue : métadonnées installées et Backend actif — 30 octobre 2026",
+      "source_section_sha256": "67198e9702c84050926f63dd2ee6c029905fca9905705f34b0a3a9d86d4359b5",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:94"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 110,
+      "end_line": 119,
+      "title": "Catalogue multilingue et médias — code prêt, 30 octobre 2026",
+      "source_section_sha256": "7e5fa883552f2b531ebee4f7e03bb58ba7320d7502204e70a2b335e4276ddde6",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:100"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 120,
+      "end_line": 130,
+      "title": "Catalogue d’exercices multilingue et médias — diagnostic engagé",
+      "source_section_sha256": "3d0618bde4c7bb1eaa54872f318dd080f283f1715c2d81f6e10219cea71b76fb",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c831ae9a0e6bbf199bd6e021b7fa7e061f1f765ea2cfed9cd767f3e6ba95ccef"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 131,
+      "end_line": 139,
+      "title": "Libellés communs appliqués et activés —30octobre2026",
+      "source_section_sha256": "868aa32600d8d41adbcb1354911c5d9382125392a394a76bbc3519e4ebd29b02",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:110"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 140,
+      "end_line": 146,
+      "title": "Vérification du schéma commun de crédits —30octobre2026",
+      "source_section_sha256": "ae6338ef982399e0ba8e5968f094df25948c39b61cc698c928d3bbb536912c9a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:119"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 147,
+      "end_line": 153,
+      "title": "Traductions communes autorisées —30octobre2026",
+      "source_section_sha256": "3cd492e430a6ae46428fbd0db8ea7dd3ca6ca22aacfb51aa8f7562f35676c0cf",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:126"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 154,
+      "end_line": 166,
+      "title": "Nettoyage des composants et libellés —30octobre2026",
+      "source_section_sha256": "8c0ed091e52b3d7e97bb504de76ea63c8f6f3066cb316ff0675d02026ffe4754",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:133"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 167,
+      "end_line": 175,
+      "title": "Connexion déclarative installée et basculée —30octobre2026",
+      "source_section_sha256": "51e54fb1c873bb8f6ef712c8a9760d1e8c39ab76ecb7023e5292be67364e1152",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:146"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 176,
+      "end_line": 180,
+      "title": "Connexion/reconnexion déclarative — code Mobile prêt,30octobre2026",
+      "source_section_sha256": "0a538c760250153c52e1ab2126e0de891ba2cc7db273279a0b6326d6d2eb792b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:155"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 181,
+      "end_line": 191,
+      "title": "Accueil/menu déclaratifs, retrait des écrans et ergonomie — 30 octobre 2026",
+      "source_section_sha256": "f2cfcf4e1404be9d1a40b7bc717404458e5eb606dad50eeceaade29b2a0d3023",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:160"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 192,
+      "end_line": 202,
+      "title": "Recette Chrome member_a — 30 octobre 2026",
+      "source_section_sha256": "6c18af789d5f4218b35657015a2ae3a9e19bc9fa04d3a4d6bcbe59d76efc7f4d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:171"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 203,
+      "end_line": 211,
+      "title": "Bascule intégrée v9 — 30 octobre 2026",
+      "source_section_sha256": "dc4e39db805fccbc59bde1c678271a8e9e294634c16fab8f941f9824ab083e4d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:182"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 212,
+      "end_line": 215,
+      "title": "Poursuite groupée autorisée — 30 octobre 2026",
+      "source_section_sha256": "99a3889c3b4853726e7d39b8f5d1a185f9564d2805623b958e7422d3a0df2f19",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:191"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 216,
+      "end_line": 222,
+      "title": "Autorisation commune application et redémarrage — 30 octobre 2026",
+      "source_section_sha256": "d6f878bd916307dd7ef8c7f633db4ae3dd9325c932e76a9670fff3afc03c97ba",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b173950f9d82ee34bc88ec5590e7dfa74ec197502f1d3eba2eb000dc0f234509"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 223,
+      "end_line": 228,
+      "title": "Lecteur des processus Pages v8 préparé — 29 octobre 2026",
+      "source_section_sha256": "684dc6fe6c8b89ee5ea9233c8de2ca0e96e52fff0cc992f2d5521f1aebe58b22",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cfd5bd14d869dce9b909e3b45dd68582dea63958554a0bfa2e904d7feb2e1926"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 229,
+      "end_line": 232,
+      "title": "Accueil/navigation : prochain lot engagé — 28 octobre2026",
+      "source_section_sha256": "8e60bbd163c63d788b56f4977a66d6e961aff4cefe38f06bf58e9c7385f265d1",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:195"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 233,
+      "end_line": 238,
+      "title": "front_type installé et lecture native v3 recettée partiellement — 28 octobre2026",
+      "source_section_sha256": "3e23d1bf6d3f1837d820d3b1d7ccf92a41e364f5bd864be3a8a8499a8f8f9009",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:199"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 239,
+      "end_line": 244,
+      "title": "Actions natives v3 raccordées en préparation — 28 octobre2026",
+      "source_section_sha256": "c15f8b4e6ddedd08e5d16263bd021a25b24e0ede4ec5ea99a960645585129e5f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:205"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 245,
+      "end_line": 248,
+      "title": "Préparation front_type reçue, runtime manquant — 28 octobre2026",
+      "source_section_sha256": "b526ecb5a4269f759eabe77a9e7ec58933af545299efe98d4857af65e1f243ca",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:211"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 249,
+      "end_line": 254,
+      "title": "Sélection du frontend validée — 28 octobre 2026",
+      "source_section_sha256": "dbc2594772e3003bebaf321319b3027933ac8f78f42495cddd4285986a47d3d0",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:215"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 255,
+      "end_line": 258,
+      "title": "Recette partielle du lecteur v2 — 28 octobre 2026",
+      "source_section_sha256": "7cc75816502e9013de7913f538246d8bfc387ad98952b6e7ad24d829e1477245",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:221"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 259,
+      "end_line": 264,
+      "title": "Lecteur commun v2 préparé — 28 octobre 2026",
+      "source_section_sha256": "8271a3bab7fef9c767504b6507a687526211f171895febcb30f272bd1603c9f5",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fe2f11b8bcb3e7c6e0b5c53bfe07691e93497a19d72de9f714899e7b31f61c05"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 265,
+      "end_line": 270,
+      "title": "Reprise metadata-driven autorisée — 28 octobre 2026",
+      "source_section_sha256": "77ba84817f94aa171e35e266046f14347df2f9c119eac474a3a268533fdde320",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "104814b19c166beebd92c91dae51cd94fea15e7bb13adc8ad290897b20297b92"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 271,
+      "end_line": 282,
+      "title": "Préférences Mobile raccordées au schéma installé — 26 octobre 2026",
+      "source_section_sha256": "c3ab4394d3f09f88b924517453d468e7a4cd543f7dcd4edd6ad84797e13d0850",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "64cc7b4a606ad4bdf26ae4d4f41e4ac0bddff83d725da9de0749b741eb06e6c5"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 283,
+      "end_line": 291,
+      "title": "Contrat préférences effectif, schéma non installé — 26 octobre 2026",
+      "source_section_sha256": "51c62bd6d9d8af9de2c21ba96b19bb343b97070c95a718c922218f2845998ef7",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "927133f6ea8690c9f38688587eda956085ecdd542dfcc0c1b280430596425c66"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 292,
+      "end_line": 296,
+      "title": "Contrat préférences v1 : accord de codage — 26 octobre 2026",
+      "source_section_sha256": "5b0b82ebca8298116ad6ba5f72abb059a454e816969b05774d448e615faa3cea",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "789d17e729de050775550908618db566f0acae7a8354ae4a2ef7aca5bc30e2d2"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 297,
+      "end_line": 305,
+      "title": "Contrats préférences et suggestions requis — 26 octobre 2026",
+      "source_section_sha256": "ca1a54c82320b905532baf2be7def36989fc409cb940d3db96f52a447fd356a0",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5cb590bef9bd5207f4aad0235be435fe5559a941762fc2ea1edd48866385e172"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 306,
+      "end_line": 312,
+      "title": "Application du catalogue prise en compte — 26 octobre 2026",
+      "source_section_sha256": "89bfb6736f095103eea9bdee989fb89dd0aa469e6f990f70bd2c6a2d36a907b0",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cd99888e6c0b13cf448f04bdb399235806c1173d6cd64b17a527bada4012949b"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 313,
+      "end_line": 321,
+      "title": "Compatibilité avec le paramétrage Booking livré — 26 octobre 2026",
+      "source_section_sha256": "9ccc86faf6d005ebfefbd9a2643b4b50156663404044c1b6c9be6580518f1208",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "36b54fc6782f129579b2f13a400363081b8e8de7724679e04f6c8f0e60a17339"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 322,
+      "end_line": 332,
+      "title": "Lecteur get_upcoming_bookings raccordé — 26 octobre 2026",
+      "source_section_sha256": "8b498be3842562a0cfc526eef263e54d167a67e00e82541d09240de3bd72f7ee",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f06bbeffa2e09357e7343d174a268c59f5e13d56c322c587b9f1f97195143250"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 333,
+      "end_line": 343,
+      "title": "Calendrier du centre et lecture journalière — 26 octobre 2026",
+      "source_section_sha256": "5ce301d54f556798b1b752c8eec826b5042ba756e9b91b7f8485b7c10f3f517c",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "bb25969125b34c3a4f7ae1751fc39cd5f7d6038c1bf18ab86c8f6d93c1a4a601"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 344,
+      "end_line": 352,
+      "title": "Palette et présentation de marque — 26 octobre 2026",
+      "source_section_sha256": "95e2f00bcbfb8637a51ad0c854716aa00021841a3ce8ade4ecdc62cf63ca57ba",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "393f9637753c00134206963be21a93d4f2403356b456c2f1435cd61e8317de12"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 353,
+      "end_line": 365,
+      "title": "Raccordement des actions réservation — 25 octobre 2026",
+      "source_section_sha256": "62f9fc4297ef8d1433fc9aa54ce87c44e737a38ab064f16e8a11c75d43dd4187",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1c4a533249d5b7fbf1159c3ffbdb1bf6eae38998c0fb4a63c318356147eb456a"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 366,
+      "end_line": 374,
+      "title": "Lisibilité des fiches programme et résultats — 25 octobre 2026",
+      "source_section_sha256": "d8938fb705c15365778e7945950ca4bc070c00b4011a3781501e1353aaab9159",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:344"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 375,
+      "end_line": 379,
+      "title": "Retour de recette utilisateur — 25 octobre 2026",
+      "source_section_sha256": "20255c35cc9ba3568a41bcd3de1390ac91b05f91a93e44c94e04bdd6dcf40d47",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:353"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 380,
+      "end_line": 388,
+      "title": "Environnement supervisé et recette web — 25 octobre 2026",
+      "source_section_sha256": "77d1c50d10e2938d8a1e3dba1c12653b5cf591b73ea0a3a499a7cd3318ae4a29",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:358"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 389,
+      "end_line": 401,
+      "title": "Simplification UX des consultations — 25 octobre 2026",
+      "source_section_sha256": "6a8cc834b13775ccd8577e4fca7797af5e45724367e844954d4989e0350c8e3d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md:367"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 402,
+      "end_line": 440,
+      "title": "Client Pages v1 — 23 octobre 2026",
+      "source_section_sha256": "cda9a44832ab0bed835632140821763681836d15e059d9b3a098e8b305bad7b8",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "97576052723a86ec413fef9c8120005246c13fda13819ff1a86696ddb885ba17"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 441,
+      "end_line": 451,
+      "title": "Lot local accueil et navigation — 21 octobre 2026",
+      "source_section_sha256": "3aa4401e0b17589dd0eae4811ff9c33200b37d5926d1b0f258d30ece8d87a6a4",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "079d5be0cb8e59e6f17f546a488a0d061d71c13118b1bf661e19afb1ffe7db46"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 452,
+      "end_line": 502,
+      "title": "Reprise sur le nouveau Mac — état vérifié le 21 octobre 2026",
+      "source_section_sha256": "acadb1103866da2447926d88459a9e15ae3902619cfb5ebce9c90d066b619741",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5bdb0e6c1ff3901c3b82cb70179a2196138480619914fe1618e068c5779e2c73"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 503,
+      "end_line": 519,
+      "title": "1. Sources et responsabilités",
+      "source_section_sha256": "2f745bd0df66e1809f1d5c6321285575918331856b23fbd9d62df8c346964d5d",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "abe2efaad72b4e46fd021697a7466ea518bb5fd5e77edb7deb74c0750a226dcb"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 520,
+      "end_line": 681,
+      "title": "2. Architecture cible",
+      "source_section_sha256": "fbabf0eaf6033a9b14a7a4b64509e877f8acc96b0b3e5704b551e2f05766111a",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "9a26c5cb587dba8befcfa49b75d5b18acb97734badec2b38e20f06e3481d533d"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 682,
+      "end_line": 695,
+      "title": "3. Configuration et activation côté backend",
+      "source_section_sha256": "56bacab4e8bffbf03d3e8bbe6254cd275a74976d77d15b9d846bfb108443b084",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "efbe23250bc8a5a2a0698ce0a76528e2c42fb94c464ca4dc265aa9b72b98ab69"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 696,
+      "end_line": 910,
+      "title": "4. Contrat d'intégration API : inventaire à vérifier",
+      "source_section_sha256": "143bd1729beb69038a18c6ec70b43bdb617b0f4216ba7fb4c5d6446d5285ef69",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "48753a5290c4d243f28fab90a822eca129fbede6354b9c6cad07377843b9ec64"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 911,
+      "end_line": 937,
+      "title": "5. Authentification et sécurité",
+      "source_section_sha256": "570455ec5ff8f81a9f2cf0cc78bc9422e7723f2d9f0321dedd85df4045746fb9",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "da6967cada8463b57e3bbd5979054a1500b5b3e2da3fce0d8c02d148400765c0"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 938,
+      "end_line": 952,
+      "title": "6. Client réseau et contrats typés",
+      "source_section_sha256": "af596ac737323aa9f85df58b4934dc75963875108e5329ec990c9c2185be08f9",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b270fee41a686f961a7392ff8cc264fe585d5243d6de4b9e57a610c411fd5edc"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 953,
+      "end_line": 1075,
+      "title": "7. Architecture UI : modules de responsabilité",
+      "source_section_sha256": "6e930541e105b9007fffeeaf9ff0925047cffba2fde579cd996e29b75d0ff5d3",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8b3b759fb5b30275989c3748d61121b5fd8047ef5d6ea3fabbbfe63de053b11c"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1076,
+      "end_line": 1121,
+      "title": "8. Agent IA et rendus structurés",
+      "source_section_sha256": "e0aa96632220f213dac621dd43b0da0d67c2deff3c8226170994e7f01d066980",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8fdcf0813eeaadd21ac8e8f178d0ad235cf8d456886ce66bacc8503382afe11e"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1122,
+      "end_line": 1185,
+      "title": "9. Notifications push et proactivité",
+      "source_section_sha256": "47d7fb0a777bb73f1930e924ed2bd4f921504833e489353c412549fdd26aa293",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8e5f8f239ee0052fe8c99d14a29e81d9020bc5e82be5004fd9d36847d26b8ec3"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1186,
+      "end_line": 1227,
+      "title": "10. Offline, cache et synchronisation",
+      "source_section_sha256": "5d5230a7a2e2e0e13727570cc7984b66036a0331f03654dec55d264d1ed5d9c8",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "76b8098323dad1605d002e75e57b447dbdbdf88145bb514ed9598b3c0c453ce6"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1228,
+      "end_line": 1249,
+      "title": "11. Multimodal et capteurs",
+      "source_section_sha256": "8011cf0e0fa7d16320d6a6bd0cc5c49a0f8ca17b9040102e100d35583dbc01d3",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "32eef6603cb9f0d4a6e37902c58e52c38485a2d668b66a6a0303f1cd8a5b497d"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1250,
+      "end_line": 1358,
+      "title": "12. Tests et recette",
+      "source_section_sha256": "6c47fc783943a35e42c8c7e5b26de8e60a7418c726287369a15d8863f089fe71",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5607136eebeb27fa5bc21cbcaf7c3d45acce9e7b398be24dab31252a08d2396b"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1359,
+      "end_line": 1372,
+      "title": "13. Environnements, livraison et sécurité de publication",
+      "source_section_sha256": "45f05d1391d69cf0209dc34e7d2965c576ba9bcbf0d2e28220c7ef7f09f2fd8f",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "6c6e0a6f6d1f3d84dd96f885534c882776b3a223b2f1223ddbd1364c6af976ac"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1373,
+      "end_line": 1385,
+      "title": "14. Contrats transverses et dépendances",
+      "source_section_sha256": "fd07a4f7d1848fcadcb25226ec1d2aa71d1fa677726048e37f587f0c8eedaf49",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8f1c718f61f17711eae45f68f2a26798dc7c8772eb36b0e2adca3b86343e6ac0"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1386,
+      "end_line": 1415,
+      "title": "15. Suivi de réalisation et écarts",
+      "source_section_sha256": "234a512c03b3f8e8195ae4f43d46dfe302230c4cc1172df1225c860770456394",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "28992f42ee7473782141eaaab4b6191593106302301f6740667fe992e5bddda6"
+    },
+    {
+      "source": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "start_line": 1416,
+      "end_line": 1430,
+      "title": "16. Gouvernance des changements",
+      "source_section_sha256": "b9c813a085d3ee73f4ad35522c2874d3b339622edfdde6d2f8e96d253893667b",
+      "target": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "4022cb3b7e16a10dd3594d0ffc41dfd6ed33e695e392773f8e5ef46771f086dd"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "81a3266af130c6a11a0bf92b6bd42702ce736906d23e3da74d55d2a99e83ae8a"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 27,
+      "title": "Design public Light / Black — 31 octobre 2026",
+      "source_section_sha256": "6c64abd51009fbc36ccdb4c38e9a1a3af45ed73023508ea2e858b061f3700955",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0cdeafefc4b5ae7935eaaccd25ed7018482f50f9012bcd2e756a809d81ed1898"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 28,
+      "end_line": 50,
+      "title": "Photographies illustratives des pods — 26 octobre 2026",
+      "source_section_sha256": "5bcd0ccf09d43d0e8989ec41ed9b191b9cbb1ddc0f4f49886c53a6641a2de13d",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e6fb9f1162f065563fbc491fa1eead01e9a6ee593bd2b1666c1af1b5ac4aa0c9"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 51,
+      "end_line": 64,
+      "title": "Identité publique définitive — 25 octobre 2026",
+      "source_section_sha256": "d2a622e5605fe2805aca9a8785b49075914fd39450d943ba2b4bbec222141d3c",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "44f4c76e5869c59c82edb66d4ed7ceaf551b43b39a588627066d9cbf7afd5db3"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 65,
+      "end_line": 78,
+      "title": "25 octobre 2026 — sélecteur temporaire de couleurs publiques",
+      "source_section_sha256": "feeb5d3b70c8f01de00b694145059e4b1d41245eb60eb2bf8fb52adea4d2a961",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d9a7925ac470a873cd35a9130c164b4b195a61aeea12fdcff3ba38e191d17792"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 79,
+      "end_line": 93,
+      "title": "Accès mobile Wi-Fi autorisé — 23 octobre 2026",
+      "source_section_sha256": "3c1da15bf31193dd34cbe2df86a456912c547f24a1eb2b395d4258f9595beb59",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3ffb77ab2227b16f83c2d3dd4ba0aeda15f292ddeec752fabc788396cd48fa48"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 94,
+      "end_line": 110,
+      "title": "Budgets d'aménagement validés — 23 octobre 2026",
+      "source_section_sha256": "c3a38a7cbc485092aa92370507ccbb39732a6f94c25d29a44f4c198b15f1ca87",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c907894ea6466f490fda8e5747e9d48840989bc82b7a92d7c08db9cc961f4581"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 111,
+      "end_line": 138,
+      "title": "Simulateur public : apport et bénéfice annuel — 23 octobre 2026",
+      "source_section_sha256": "0e9f976a37b7fd47e38425106d12680420017935fb4e40683f9c3862dee59f69",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "dca65fa99b076805efd0f565ac2e983972ba5c72f29d55770ec1197c5b443c11"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 139,
+      "end_line": 165,
+      "title": "Simulateur public simplifié — décision du 23 octobre 2026",
+      "source_section_sha256": "bd0464db1211ebd1a12b001f6633c89a5d118fbf5c33d3b57857774b22a1a7e1",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "386075321a7de5d3482f6fd42b61941f7f22c6ea73faf7052ceadda20009d001"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 166,
+      "end_line": 176,
+      "title": "Champs du simulateur complet — 23 octobre 2026",
+      "source_section_sha256": "ff426abf858aea83ef21a789b7a23eb105e6be2f0ae16fc47558b3190a183fad",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "badfaa7b014f1543b4a13d090b6024e378643873a203e5aaf7c4bcfaf7501e0e"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 177,
+      "end_line": 187,
+      "title": "Navigation publique validée — 23 octobre 2026",
+      "source_section_sha256": "2c72e4fb2cc65f034a979916ad826d1872c7bf0124bc0028cc7adaf4b63ffe56",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "47b88229d69b9124f0d09b8526d670d8b468b64169efa9810486f5a7ad521fab"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 188,
+      "end_line": 204,
+      "title": "Catalogue public complet en BDD — 22 octobre 2026",
+      "source_section_sha256": "fbe75e0f5206dc32507f58acd65a0595f07444b6e8136e1c2af880fc78ff34f8",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f387dd141d10d13e83e160a61df1949701db93d9e94fc041d66cac7baeb5a955"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 205,
+      "end_line": 219,
+      "title": "Présentation publique — 22 octobre 2026",
+      "source_section_sha256": "43a6a94b0eb45812acedf98b0d9d9d102557ac759b19e39ead11bde132420619",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c1650135bd74b1b29d26f54087feacc9376b25ea0fde519a597f3a0a963d5636"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 220,
+      "end_line": 239,
+      "title": "Avancement B09A — 22 octobre 2026",
+      "source_section_sha256": "247ed921a097940219d03830c582b8a7dea01bcf912eb7ec9ee4d2787a295306",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "76e844ab28860845d3850db600013e8546d2ab71e0e386504ce72a0fc09d7218"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 240,
+      "end_line": 253,
+      "title": "Avancement B08 — 21 octobre 2026",
+      "source_section_sha256": "7a9fb354f5c46b87260b127a28d7b7111db8efff12844a93466a98eb20c55146",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2301a9218c0f8f800e7295f0a424f0a4078abafbd0a53e9c230ca2a7741172fb"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 254,
+      "end_line": 270,
+      "title": "Avancement B07 — 21 octobre 2026",
+      "source_section_sha256": "d2b88a8d041c6277f62caa07e815510a3f96ec98db0533f8c20eef75b8026ca4",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fcbe9af5a77583b425902cb39e6cd39330d4b416e46c1f9a579b2e2e704f21f2"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 271,
+      "end_line": 289,
+      "title": "Avancement B06 — 21 octobre 2026",
+      "source_section_sha256": "532fd9eb26ff696d173247018e9343f3d50c6d913eb8307d52e165e0691cbcdb",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a6ba5e2b1624ed3c310844ef3e2edea4bfb13284e4de12c3b3dc375dac09c623"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 290,
+      "end_line": 304,
+      "title": "Avancement B05 — 21 octobre 2026",
+      "source_section_sha256": "54963305319e4ee0b26841de60fb753fe01a2de30d4e66ad92162af0d504b25e",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "68fc355ef9ef8a5e17e3221ca69259ef0b3ffba9976d7eba6bae9e5ae800c6e6"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 305,
+      "end_line": 317,
+      "title": "Avancement B04 — 21 octobre 2026",
+      "source_section_sha256": "a246f04b050490e49b1e99d51584a4f6eaebb6cafc5f0d954b343573f65309f9",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e0feed202ca4149c3f7c903db22f0a5db2e9a252cbb09ac55a79073da564e194"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 318,
+      "end_line": 331,
+      "title": "Avancement d'implémentation locale — 21 octobre 2026, après B03",
+      "source_section_sha256": "2dfd432da23a6646b1af1e9e78243dae2df835f8a0876446b6ba852a3b1b5a9a",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "479b09df1d203cc9f3b0ba5a2fb55708bb94564d6314f28b1ec0548b6f341379"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 332,
+      "end_line": 345,
+      "title": "Actualisation de l’état local — 21 octobre 2026",
+      "source_section_sha256": "da8e2c9878ccaebc770e81b6e16fff31c299728d69b10f1a503d496b257618be",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7b9ee63c1d7d3c1d4c74485989d158d3d8b524d98e7a408c703d6cdd38ffe024"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 346,
+      "end_line": 365,
+      "title": "1. Identification, sources et autorité",
+      "source_section_sha256": "f0169d70fc1ea5f38c2e7909be5f3b09f8031ee51815c804dd4e40c118a18b8a",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5b4dce053a330749e15c7ebefaa36bd1e4ba28f5e3897cc1ecaa1d61417c9000"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 366,
+      "end_line": 380,
+      "title": "2. Présentation générale et objectifs",
+      "source_section_sha256": "d7e223bc71c07d9473f2d6d6c168ef6da85627cce3061766ab4ccf75fa641d29",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8eb65a3fd1d5428dd06d7d95d6ecc5025e03c675462ef4db5d0cc5b1b5b05746"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 381,
+      "end_line": 386,
+      "title": "3. Positionnement dans l’écosystème MOVEE",
+      "source_section_sha256": "dc57246f66f61f8f435b5b5ea52e5d6c2ec0170f4c805969e773c19aecf2b84e",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cea5fad082c590b22427bae37a100d56674bc63188a4259ec9afe9b0d281e3ee"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 387,
+      "end_line": 390,
+      "title": "4. Périmètre et exclusions",
+      "source_section_sha256": "f93aa27070d190b16c425228fbb1ad0adfefe5280fe3cd6310f04ad3eb86a971",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "39a707ac24b7f149f4f642363f4e6434a999b28bbb0937466dcef52099a96f29"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 391,
+      "end_line": 405,
+      "title": "5. Profils, rôles et permissions",
+      "source_section_sha256": "63c3abdcac01f476f3ac6ea6696cd5bc56c2a4fd7da40a17bf675e0255263665",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "907f52bb289b70813c1e926ea64c82c1dacf3c7c0f09e56a86234aa164639566"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 406,
+      "end_line": 440,
+      "title": "6. Interfaces, pages et parcours",
+      "source_section_sha256": "24b74370e9e651df2be1564a2e9df847b23c4d7e2584df58f0c24aea0359ad33",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0868a6f7d3d93ce12dae9050ac763cead6e4ebb32df38e72318e7036d8369f87"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 441,
+      "end_line": 495,
+      "title": "7. Domaines fonctionnels détaillés",
+      "source_section_sha256": "f663c7daee3307ca50789e52746726b2cc7025722a1b476640951673c4b85335",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "36adc419653d78b50ba979d423eb76b47eee359af992ad2ec39d02186e10644d"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 496,
+      "end_line": 614,
+      "title": "8. Règles métier et modèle financier intégral",
+      "source_section_sha256": "18f70b5ced3417098b69dd5caf5bd7f3e47f51643a2338a7ffba6fdfddc3f1bc",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1e3d128a962783cea0bc463039ac5efd2fe8b29030ddc443e9a535853aa4f15f"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 615,
+      "end_line": 633,
+      "title": "9. Données fonctionnelles, paramètres et persistance",
+      "source_section_sha256": "1a28d4d8cf8bd7a689783b02aa9d38c125b2db331b2440fae338d1ea181f0093",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "55e1aa4a77e8c28ec034bc253d2e9a8651d7850c92b0d8427075cc0d415e0403"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 634,
+      "end_line": 655,
+      "title": "10. Internationalisation et CMS",
+      "source_section_sha256": "586218b03ef327dfd79d2301bd0d22150755540df9f3f335554d3586f2d778d0",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "57053a2594b93fe923e9a28699eca90fa1b741c491e7803809d0e37c9504ad99"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 656,
+      "end_line": 685,
+      "title": "11. Sécurité et confidentialité fonctionnelles",
+      "source_section_sha256": "644a94f5571d96bfbd01665d8a240e5fabeaa2a42a1c14e31859db121d20b943",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fd39cb340de21a2abd843e17a4395f44f56d6a9ac7650dc862fc8fa4d4cdf3da"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 686,
+      "end_line": 701,
+      "title": "12. Cas particuliers, exceptions et conventions",
+      "source_section_sha256": "4d2bec244ef3a614ee0b83ed26d5a616fd24cd5592f941f3c55f1e05b2ab31d9",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c2157c92d87948e92c9884ff1a5f10c074fda652fc28c3c5b181870b94fc5395"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 702,
+      "end_line": 770,
+      "title": "13. Critères d’acceptation fonctionnels et financiers",
+      "source_section_sha256": "c68d1875ae10a55e43089eccfec105cfb88c6e8d0b044cd79f4678815ac216fe",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3f6378cf98e9a2f002e00f444a75c7e480cb73ac7f4f9ef650c865df4553ab8c"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 771,
+      "end_line": 1195,
+      "title": "14. Décisions validées et traçabilité",
+      "source_section_sha256": "1c0fd1c5542371a3a6df9ce230dcf4001a83078ac24cf40d2944e09bc243119d",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a873f5f583575b4bc4bf97f4279d37e074b99585137ce1a5a8d82e35f0196eaa"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1196,
+      "end_line": 1252,
+      "title": "15. Contradictions et arbitrages restants",
+      "source_section_sha256": "ee419117587d1942771bfa993a60524cfe37c4350aa78aceaba82b3bce810ad1",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "761950ba5a2c9a3f1203ca0393e94eb342f9f7a15b4a49f57d4f10f578eac33c"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1253,
+      "end_line": 1378,
+      "title": "16. Historique et contrôle de couverture",
+      "source_section_sha256": "608a6bda1d93f903c6d3b042601f7b674a9a72684cd9c27a559f820015642129",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "9ce2ab832d42d309ba5878e53e462e8e3cee6d5d1eea94d35cd6b05a86bb821a"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1379,
+      "end_line": 1473,
+      "title": "17. Annexe R01 — Fiche financière France et recette conditionnelle",
+      "source_section_sha256": "a7936c222a88728448dddbffd700a5cb3956ac5cd1cc6f5238368d1981758c26",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a76c910a28d923147cf9912214687e41b88fc65fb01a4a0f85c2c5d7366650e8"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "start_line": 1474,
+      "end_line": 1568,
+      "title": "18. Annexe R02 — Politique RGPD et conservation par catégorie",
+      "source_section_sha256": "ff54951369fef187449e0aeb76a0a0a25ae6d83faa1c0d331d682f3b57623dc3",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "993b9624a587e0fccadd68d0b85b89afecd2650c5f5410de7f20f8a7755efaff"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:2"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 3,
+      "end_line": 27,
+      "title": "Design public Light / Black — 31 octobre 2026",
+      "source_section_sha256": "6c64abd51009fbc36ccdb4c38e9a1a3af45ed73023508ea2e858b061f3700955",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:3"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 28,
+      "end_line": 50,
+      "title": "Photographies illustratives des pods — 26 octobre 2026",
+      "source_section_sha256": "5bcd0ccf09d43d0e8989ec41ed9b191b9cbb1ddc0f4f49886c53a6641a2de13d",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:28"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 51,
+      "end_line": 64,
+      "title": "Identité publique définitive — 25 octobre 2026",
+      "source_section_sha256": "d2a622e5605fe2805aca9a8785b49075914fd39450d943ba2b4bbec222141d3c",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:51"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 65,
+      "end_line": 78,
+      "title": "25 octobre 2026 — sélecteur temporaire de couleurs publiques",
+      "source_section_sha256": "feeb5d3b70c8f01de00b694145059e4b1d41245eb60eb2bf8fb52adea4d2a961",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:65"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 79,
+      "end_line": 93,
+      "title": "Accès mobile Wi-Fi autorisé — 23 octobre 2026",
+      "source_section_sha256": "3c1da15bf31193dd34cbe2df86a456912c547f24a1eb2b395d4258f9595beb59",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:79"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 94,
+      "end_line": 110,
+      "title": "Budgets d'aménagement validés — 23 octobre 2026",
+      "source_section_sha256": "c3a38a7cbc485092aa92370507ccbb39732a6f94c25d29a44f4c198b15f1ca87",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:94"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 111,
+      "end_line": 138,
+      "title": "Simulateur public : apport et bénéfice annuel — 23 octobre 2026",
+      "source_section_sha256": "0e9f976a37b7fd47e38425106d12680420017935fb4e40683f9c3862dee59f69",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:111"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 139,
+      "end_line": 165,
+      "title": "Simulateur public simplifié — décision du 23 octobre 2026",
+      "source_section_sha256": "bd0464db1211ebd1a12b001f6633c89a5d118fbf5c33d3b57857774b22a1a7e1",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:139"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 166,
+      "end_line": 176,
+      "title": "Champs du simulateur complet — 23 octobre 2026",
+      "source_section_sha256": "ff426abf858aea83ef21a789b7a23eb105e6be2f0ae16fc47558b3190a183fad",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:166"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 177,
+      "end_line": 187,
+      "title": "Navigation publique validée — 23 octobre 2026",
+      "source_section_sha256": "2c72e4fb2cc65f034a979916ad826d1872c7bf0124bc0028cc7adaf4b63ffe56",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:177"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 188,
+      "end_line": 204,
+      "title": "Catalogue public complet en BDD — 22 octobre 2026",
+      "source_section_sha256": "fbe75e0f5206dc32507f58acd65a0595f07444b6e8136e1c2af880fc78ff34f8",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:188"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 205,
+      "end_line": 219,
+      "title": "Présentation publique — 22 octobre 2026",
+      "source_section_sha256": "43a6a94b0eb45812acedf98b0d9d9d102557ac759b19e39ead11bde132420619",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:205"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 220,
+      "end_line": 239,
+      "title": "Avancement B09A — 22 octobre 2026",
+      "source_section_sha256": "247ed921a097940219d03830c582b8a7dea01bcf912eb7ec9ee4d2787a295306",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:220"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 240,
+      "end_line": 253,
+      "title": "Avancement B08 — 21 octobre 2026",
+      "source_section_sha256": "7a9fb354f5c46b87260b127a28d7b7111db8efff12844a93466a98eb20c55146",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:240"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 254,
+      "end_line": 270,
+      "title": "Avancement B07 — 21 octobre 2026",
+      "source_section_sha256": "d2b88a8d041c6277f62caa07e815510a3f96ec98db0533f8c20eef75b8026ca4",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:254"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 271,
+      "end_line": 289,
+      "title": "Avancement B06 — 21 octobre 2026",
+      "source_section_sha256": "532fd9eb26ff696d173247018e9343f3d50c6d913eb8307d52e165e0691cbcdb",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:271"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 290,
+      "end_line": 304,
+      "title": "Avancement B05 — 21 octobre 2026",
+      "source_section_sha256": "fbe5105463dd2843a887c988b8e21af8a4cec3769b18ed4f51c5348d7c51505c",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f8c835ba29744711d2991e8595f3ecf67561d490d631648f7bf4b51367854137"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 305,
+      "end_line": 317,
+      "title": "Avancement B04 — 21 octobre 2026",
+      "source_section_sha256": "a246f04b050490e49b1e99d51584a4f6eaebb6cafc5f0d954b343573f65309f9",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "exact_duplicate_reference",
+      "same_as": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md:305"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 318,
+      "end_line": 347,
+      "title": "Avancement local — B01, B02 et B03, 21 octobre 2026",
+      "source_section_sha256": "871b926062d6017eec2502826fb6f5cdf454aebc9d487949018d1b492fc0582a",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a36c3d27ab5f810dc0ff7525ee2edfb62a403be9bf3b7b3c31a9e02eb739c77d"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 348,
+      "end_line": 388,
+      "title": "Reprise sur le nouveau Mac — état vérifié le 21 octobre 2026",
+      "source_section_sha256": "021d3774bb8ed807f23a9488f33debba19fc5c0aafb3a8b2b6d6005790e03573",
+      "target": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cfdb13215aaa792d11ab44d7c327a2e47b2413c2776ff011365c0fd7339f3c86"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 389,
+      "end_line": 420,
+      "title": "1. Identification, sources et conventions",
+      "source_section_sha256": "2ab3b784c87eab470bd01be80bf9bc8ab2bf5c7290b8fc5b131745a1d4dc0c91",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "ac4b15584b8b1cfdce48e35200d74368ce5855b9beb4e84b21dd075534b19d46"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 421,
+      "end_line": 428,
+      "title": "2. Principes d’architecture cible",
+      "source_section_sha256": "4046cb5e1fc971505a746abc6ee14460d43c6e5b1d64c42711b17d65515001f5",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7bb037883ad3c8d8f117627ea1b4203983cc9723526649ed734ee2618b82d5ed"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 429,
+      "end_line": 452,
+      "title": "3. Technologies et dépendances vérifiées",
+      "source_section_sha256": "4a47c50462803930f93263eee1e5f5644ac919e3a9414685ca21c735f40d65a6",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "13b4c374ef999229e8b77f63d2a4bbdad072b37bd61797c90071dbc15f6c13c2"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 453,
+      "end_line": 476,
+      "title": "4. Organisation réelle du dépôt et fichiers cibles",
+      "source_section_sha256": "0c8ed5f7cac7a913e314141a13cb403b4500fe13d7d213f52537eda856fe16f6",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a628a786fdd74b40b48c172773c6b7687da4910154c115f33a58ecb044d30e65"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 477,
+      "end_line": 496,
+      "title": "5. Environnements local et production",
+      "source_section_sha256": "ed7dd86e1b84d5dc889b3061d32ce5544f5d247322a6450da614adf35b9a1616",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f2acedc41f3822d7d789fae7fd060bd3cb041a10ab529d56107fde96d18aac1f"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 497,
+      "end_line": 529,
+      "title": "6. Configuration, secrets et MariaDB",
+      "source_section_sha256": "a76e85cbf44dbf7ff5df6467ecc0f107175622be5b96ec4ee3c7efda8a752235",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "08af0eff22d84fd060f0677ec6450e7a3d2e3c08c790d0a4326ba1256d7919c8"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 530,
+      "end_line": 541,
+      "title": "7. Backend Flask et services",
+      "source_section_sha256": "e95bba17c36745bf47196b9bb8c2340b5366b3f9fc4239a32307733e83c9ef4a",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e777a30e1104c7cd5a9dff446a885cfb69a511fb14c1b675ae9f3d7691883b50"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 542,
+      "end_line": 563,
+      "title": "8. Frontend Web",
+      "source_section_sha256": "a8fc55776a6b8d785830e8779b380aa32e065fcc0a3dd43db4c494ceab2cd952",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d3885981718bdf9cf0c66335395c52e3eb674fb184495eec5fa23c7ed57e67de"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 564,
+      "end_line": 593,
+      "title": "9. Modèle de données et persistance cible",
+      "source_section_sha256": "45d3739510e78b374336eee68da0dc0ad74969a61bbac559cc0f453af49bd94c",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c5ac817a3dc3824a8c2d610f15eac36bbf7d56051b49d4107102617ce6a55bd1"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 594,
+      "end_line": 617,
+      "title": "10. Authentification et autorisations",
+      "source_section_sha256": "3f498953cff9e6fdcb964f9ebf0ed7a42b4506e748d10097be12ee3e03fb1e1f",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cf7245e712198bba12e31071be0acc142afd51e5b36e2ffc7a936f323a5dacea"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 618,
+      "end_line": 643,
+      "title": "11. Services et moteur financier commun",
+      "source_section_sha256": "ad9227916e552bfe98bd82d93bafd9bf5502772e62b8fd62265ae9edfd1dded0",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "bee7c604a7d75212781babbe5dfa450bfb51cab8a4b0b6e8973b04aa0aa96bc9"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 644,
+      "end_line": 647,
+      "title": "12. API et intégrations",
+      "source_section_sha256": "8079d7c4cd11fdde0e4e451294cc2bc4494d4a2fc75a5aa13af1870769db5fe9",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d0aa7bd51280211b157a74c5504d9746f3cbdb959c2a0399d1c874ec39b134c2"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 648,
+      "end_line": 651,
+      "title": "13. Internationalisation technique et CMS",
+      "source_section_sha256": "1945829d8d9944a13da07cc232eaff9586a129309c24b02113ee4cd1c2b59e8e",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "923276a59cc4c8334ce589ed220b0a3bc307a3f079a6ab42effc9565671523d4"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 652,
+      "end_line": 664,
+      "title": "14. Exports et génération de documents",
+      "source_section_sha256": "c9e989af78b4346aeb5d220b1f96909e69f1ffe47e88d3d6bb1c6f56a4dd1802",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f3fa23ea2fc4496764c9379af5b1b1efb208eb5efad357388e637e713b02b083"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 665,
+      "end_line": 690,
+      "title": "15. Sécurité technique",
+      "source_section_sha256": "d9c2e45d844f108dfa7c9513880d0248d0757e8c25ac8ff48d43ac5f9cace738",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "edba7637cc25410a88c93a5e4405b9e1bc549c81ee252069fedf1c7268e0284e"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 691,
+      "end_line": 713,
+      "title": "16. Tests et critères de validation",
+      "source_section_sha256": "c8215f3d8a62dc2b7502df17cfa4d017d2868bb6d7168d7fe050b0ed7403c479",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "91a376c6edf7f491123657a65171e16a281d858c572a2f156e6a03399bd3a908"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 714,
+      "end_line": 727,
+      "title": "17. Déploiement et exploitation",
+      "source_section_sha256": "a81416f4ac97708eeb6a6b050dc75eaae884dfabff41d724d1c6ac8f60915c5e",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "13823eb100558fe829b9c18a787dc5159cfd15d2263e0142fc87094b704b7d07"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 728,
+      "end_line": 746,
+      "title": "18. État réel d’implémentation",
+      "source_section_sha256": "49feb239d699611e5c16403da33a4879640a22b9ddbe715ff6d04a24fd06dc0c",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3b1d327b4c7cab2d6a14fa046b857f2fb4858b15cd14fc2569d5f05d099cab89"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 747,
+      "end_line": 850,
+      "title": "19. Décisions techniques validées et traçabilité",
+      "source_section_sha256": "289aeca7d92c9bc8ec0d39606cc077d2628e5954de8c03c746039d8d24d8f81d",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "f757a8d438880a949e8d4b8d36817cb047906d84a979bf14cb08ca03ce8ec2ee"
+    },
+    {
+      "source": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "start_line": 851,
+      "end_line": 890,
+      "title": "20. Points ouverts, couverture et historique",
+      "source_section_sha256": "5f40bcec4339e04c026423a0fbde4f8f695db401d27a68f26e37350f956f639e",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "711cfc1e2f1deb54af3d84618cbf934b086648a1b4a60a8bc5ea5ff3771da79c"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 2,
+      "end_line": 8,
+      "title": "Préambule source",
+      "source_section_sha256": "3641a3ffab5c53a458ee8f1b855ee1fe50309f78fb916263eb80c291c7c8f6d1",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "cacdccc8b5255c9be7b58db4abd795c69823c2e8f8ffb1d98fb720d485c57e36"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 9,
+      "end_line": 28,
+      "title": "Sommaire",
+      "source_section_sha256": "91bc583c6c359bc754937af1f1627d11505e45b921b347bc4ac8a6f7f1462091",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Ancien sommaire monofichier remplacé par les deux références Motion et leur table de lecture."
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 29,
+      "end_line": 56,
+      "title": "1. Sources, portée et statuts",
+      "source_section_sha256": "dc063b4976f98f01987b53421d5f0a4543144eb0dd966ceb6f40e98d9457cf10",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1445f362b09e5e39d66dab3986ccae5b56563362aeada57d9df751f722604b51"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 57,
+      "end_line": 83,
+      "title": "2. Concept et responsabilités",
+      "source_section_sha256": "49d7da154b1272ae54f577eec27e74975ab6e78584be84b8ff78b76cecbd477f",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "e1ef50680ad37f516ff0e22fcebff9a106e7067d3744b77201dcee27c9965a09"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 84,
+      "end_line": 103,
+      "title": "3. Catalogue d’exercices connus",
+      "source_section_sha256": "aecd000512ee64d7d3bae493d32ba7b7b6acad8bb8dcd5fabd87bf382e54df47",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fbd50becf27a73017802998af710a0736cd2db29fa6fed3b1a0daf617329a20a"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 104,
+      "end_line": 129,
+      "title": "4. Découverte avec le coach et référence individuelle",
+      "source_section_sha256": "cbd090281cc81307b03573f92d7efa97cf4a5e592e08b0c4aa8ec55df2a513af",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "4af98a09ac13d307710c16e0b2f7479ac65cce35e9af0b6a2f744333643bb4fe"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 130,
+      "end_line": 148,
+      "title": "5. Référentiel d’exécutions coach validées",
+      "source_section_sha256": "347c02126cbf524365f3594f3885c97dec024d38f9cfcf8f8f87d53cec2c91e3",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "d63b2f33f6cc5b7e8b56abdd5a7ed950f1388f4f86e1c80255231abb206bdb5d"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 149,
+      "end_line": 189,
+      "title": "6. Matériel : RGB, RGB-D et vues complémentaires",
+      "source_section_sha256": "09a240ae41492be43e6b1011f92b8ff3bca37e814c252a0e71f86ee11b44a726",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c477c72b133ed8d85b00f52b0d4cd62bdf523a4fd2d49531a9f852e37e305a9a"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 190,
+      "end_line": 221,
+      "title": "7. Calibration et synchronisation",
+      "source_section_sha256": "8c4734390312c9bb05a4950f1e8f59c4d72effb515f7c63c87c896a241102e29",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "48f0f9ed020923ce9cbfb32cf79caf4a0c3cef9df0325b5897dce01890094ef3"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 222,
+      "end_line": 281,
+      "title": "8. Pipeline et mesures biomécaniques",
+      "source_section_sha256": "be12de945ac72e2167601fa4d9f9bd0894ab63fcf23532cf66524d3adf7df14b",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "4217bccdadb201db4ff4f6401168d3966eed799c868c1734cfb6f178291f2b3a"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 282,
+      "end_line": 320,
+      "title": "9. Comparaison biomécanique et corrections",
+      "source_section_sha256": "a6212a68fcdfc1a1ddec93bf4b26944d6af2bcad643d4875bfc713d68847c749",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "1f399cf1afeae3d75e3618843e00993526f773bd60ca975d417f8c5cca768b5e"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 321,
+      "end_line": 338,
+      "title": "10. Fusion avec les capteurs machine",
+      "source_section_sha256": "3cc24503b9f8ebd6ff2def114150fa033dbe8a135403252e0abd73846388f833",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "94600577b1a3fcdd5450976056449000e41081afb3ad9294700b9b6d41057d54"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 339,
+      "end_line": 374,
+      "title": "11. Stack logicielle et architecture locale",
+      "source_section_sha256": "2665209cf6d2026aff2612beabc81c31024624abf2a563757e909385236f24d3",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a8d2605d02c8c2ce61ec27d8e8609ba034c7c47a0df638ea9a947c3ae19da5ce"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 375,
+      "end_line": 419,
+      "title": "12. Intégration et contrat API proposé",
+      "source_section_sha256": "67d02f0ed43373de0d704c0032c393527b245b33a812a3c174cff3b42133b20f",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c26f997c693689b787fbf418ba9a57e009d4556ef005fa1d67b508441f471f97"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 420,
+      "end_line": 439,
+      "title": "13. Modèle conceptuel de données",
+      "source_section_sha256": "9d25e9d83b9176881baf212c232bdbdc513b1c3f63a3fc684b4629122e007c23",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b2dd66e8db0a985c4d5a0ceda981290572070db369dd13e5a8d5485185681def"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 440,
+      "end_line": 562,
+      "title": "14. Exemples Python et pseudo-code",
+      "source_section_sha256": "6242b17efe469fe4fe8a3cdebcd06a271ef7578b5a880b9ef9e96ab73a0b387f",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "9dfc257a1c524344545e285fc59f287fcde0fe8b94b4fa0d41dd659db2ecda31"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 563,
+      "end_line": 611,
+      "title": "15. Plan de POC et critères de validation",
+      "source_section_sha256": "4e50c4ccb3f548048f635d7c8df3aa3852e043b8bae8ec415168891e72854ff9",
+      "target": "MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "c98d947ee1440f16344a4bf932300918a19392f73ca1d15a848c54a0ffe5cc4f"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 612,
+      "end_line": 635,
+      "title": "16. Sécurité et confidentialité",
+      "source_section_sha256": "8156a3ef6041beb82eccfedd0d5f727b1756138023e864b657e406a6dea77725",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "3d6ddf77dfc5d44a8ce30590659c7e8ada98456b9a631bfeb7f4a0fe787b2a56"
+    },
+    {
+      "source": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "start_line": 636,
+      "end_line": 669,
+      "title": "17. Registre final des décisions, propositions et inconnues",
+      "source_section_sha256": "cb6ef7f66ee8380c47f764a7c8e131c7836b837e22e1e78f2cdb135078b6432a",
+      "target": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0083387f441628f99b2304960f3388878e2dd455700f6182a2ede77c61e6e7c5"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "0eda00977ad079cfad6929f405bbb2d5c59f49a8a0b40893fb7ad0d28a109cdf"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 3,
+      "end_line": 50,
+      "title": "Reprise validée le 28 octobre 2026 — périmètre du lot courant",
+      "source_section_sha256": "ec04a018c8fcb6d9a1a444f1c349ee669839c7f0e0698d1269a7064ce2760192",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2e900895f9a0e50c2d1fd50dad9aa930402faf1a28da0c0a38fd84bcb319894b"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 51,
+      "end_line": 55,
+      "title": "Livraison progressive",
+      "source_section_sha256": "1f342e49c9aa5fe335b1dcde1f97b4444af621232d24c8d62fe92e1c29648253",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "92c00d4e8004dd1e5da8378253df093d30a1aa001900da07c5518a9b519099c2"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 56,
+      "end_line": 59,
+      "title": "Lot groupé — décision du 27 octobre 2026",
+      "source_section_sha256": "4e31fcf2f33fa5c48c0cc3fc2b5f2d79bb59aa175598eb96a5ebcf2dbb00fa44",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "a1d1c5f1cf8a72904595487a3f136dc9edd706bfd3c8c789429bf2a8368be6af"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 60,
+      "end_line": 74,
+      "title": "Arbitrages du 27 octobre 2026 — lot groupé",
+      "source_section_sha256": "89db5a66cf6b3a6b71e00279bfec9d42b62c06b10570258cb076e81c49f6bf9c",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "8cacdd3ed2f4a446737b0caad7020eb80d4fe7bcb949ac9fbf165389ac3ab4a6"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 75,
+      "end_line": 78,
+      "title": "Préparation validée — 27 octobre 2026 : lectures Core",
+      "source_section_sha256": "daf7eac80b3f29a649d2870a5a19b4faee6253b8f0c16687a1ed705e85a297b6",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "80d87a5cf2965c74677a50a30b77131b5de164f11ec7929928ccb0b500172cd2"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 79,
+      "end_line": 82,
+      "title": "28 octobre 2026 — plan de reprise native Backend",
+      "source_section_sha256": "2545c36ded81389d04d3f0fc6f725654c1fdfc65b86b25e6928ed8dea29e6aac",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5df5c355edcc47a6867e8a4909579c65e88e5b37b64567c5b0b0031f2aa31e94"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 83,
+      "end_line": 86,
+      "title": "Suite d’implémentation du 28 octobre 2026",
+      "source_section_sha256": "869c663e0fa74ac62546fdc5e11b04f7d37588f676b8b82814cfa04a01756fb0",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "07b853a7500f5c44bd840309ee65a71502d6475b50405e164ce2242d920129d3"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 87,
+      "end_line": 90,
+      "title": "28 octobre 2026 — clôture partielle des contrats et complément natif",
+      "source_section_sha256": "a6ee9bc2fc35c7a5180b51ef624c49394fceb71c2f15185ae3abe90f8fd8b242",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b276de3ad73834d6de739f9c961088fa03ad75d75ad56111af52dd28bac20088"
+    },
+    {
+      "source": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "start_line": 91,
+      "end_line": 93,
+      "title": "28 octobre2026 — candidat d’intégration natif",
+      "source_section_sha256": "c176f1bb710cfd14aba971236d2d12c099a3a96062ab9a7819123fe49d99b057",
+      "target": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "b995643bba13e9e7e6c051bc48b434ab1f46c114ef1eac6a338507699ba9904d"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "MOVEE_ADMIN_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "66b8f3019d2e75976b91e4f3b54b6f2e5db2c1c23a02a10d3e408f864b4aab4a"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 3,
+      "end_line": 27,
+      "title": "Évolution menus — code du 28 octobre 2026, métadonnées locales non installées",
+      "source_section_sha256": "8d494a38b846c46e18d653f0ca1d5411a43c5fa7a5f3e2e4e85725c11d15c2e9",
+      "target": "MOVEE_ADMIN_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "fadc8d6a665aa54ccc5cdf956e8d17396db321b4d26d323d9416f3cacdc23d30"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 28,
+      "end_line": 46,
+      "title": "1. Le principe",
+      "source_section_sha256": "d089718fd2b094a62157a1f41f2e21a12575a1f47a1679635a07f89b2b86b91d",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "2897a0029a848024e0a21074a8539f2c6a3b658e0862fa8d8d7dd65ce3bf9e64"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 47,
+      "end_line": 115,
+      "title": "2. Les quatre piliers",
+      "source_section_sha256": "4721510d24fa636ebc54752675cd79d3d75a825f230da12213a2c41f3d370a18",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "72c34fe8dd7ab9cd47080cf8e600023f476815f0116af9a833215a031d3a04a7"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 116,
+      "end_line": 156,
+      "title": "3. Le modèle central : `default_config` + overrides",
+      "source_section_sha256": "b4d338aa8581c24f0806cfc1a8f8a95c70dc899611cc29dfd697aaeb0e45618b",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "5b7ebd9fff3322d05f40f6e6fdcb52fed8fcbf72b816e326f6dc1d5df24c9cc9"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 157,
+      "end_line": 172,
+      "title": "4. Ce qui se passe au chargement d'une liste",
+      "source_section_sha256": "b2baf19f1f2165feadbe2a529abce4e3b3291e7a8faabdfdd6ff8b246203f4ca",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "676d506e87200f983085fca267207ca97b5e24c3326245c1d2e0a758fd745329"
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 173,
+      "end_line": 260,
+      "title": "5. Le périmètre de données (row scope)",
+      "source_section_sha256": "c59b653ba9a9d0ca366d7a83923f255681d87c64c19d049d368e5aef7f162a62",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Brief de scope hérité d’un autre projet : conserver le principe serveur, ne pas affirmer OWNER_FIELD/OWNER_INDIRECT/DATA_SCOPE_ROW comme implémentation MOVEE. Voir matrice de dépendances."
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 261,
+      "end_line": 278,
+      "title": "6. Les trois pièges du périmètre",
+      "source_section_sha256": "a9065facc1723c55f6fdb16babf7061dc258bd322448e7b79e057143f1b59ed1",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Brief de scope hérité d’un autre projet : conserver le principe serveur, ne pas affirmer OWNER_FIELD/OWNER_INDIRECT/DATA_SCOPE_ROW comme implémentation MOVEE. Voir matrice de dépendances."
+    },
+    {
+      "source": "movee-app/codex/METADATA_ENGINE.md",
+      "start_line": 279,
+      "end_line": 309,
+      "title": "7. Réflexes",
+      "source_section_sha256": "5f800c41cc3bd0da31710f92181b28a22a837cd412b89a17a2f79e359d761094",
+      "target": "MOVEE_TECHNICAL_REFERENCE.md",
+      "mode": "transferred",
+      "import_stage_sha256": "7150794cfac47273e8d2b4ea8681e88002b22d15f5f310b7dc392c910bb655be"
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 2,
+      "end_line": 4,
+      "title": "Préambule source",
+      "source_section_sha256": "fb86a2621ebfe5b802386b431e5ac7d5e3519851895bace45ea5d2a016766be4",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 5,
+      "end_line": 26,
+      "title": "Centralisation et périmètre Pod — 30 octobre 2026",
+      "source_section_sha256": "b37794c584a42b25daf32faa8cb2bdece26cde847336c7ce2a1a6eb262bc79f5",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 27,
+      "end_line": 42,
+      "title": "1. Identification obligatoire de l'application",
+      "source_section_sha256": "aaa98cd2e79be7da1f7d87c2284ed4ea15f3540e3a0559273a7040e4e6466cc1",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 43,
+      "end_line": 52,
+      "title": "2. Sources de vérité et hiérarchie",
+      "source_section_sha256": "29eb0db1230a8d1a9aa128806629b5ea06f5b96753d4ab8c60c5ae5e69701bb7",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 53,
+      "end_line": 71,
+      "title": "3. Protocole anti-invention — obligatoire",
+      "source_section_sha256": "82121432fc856ad8be523691146422edefb3f7e7644ef69ec2eaf805eea6f11a",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 72,
+      "end_line": 82,
+      "title": "4. Méthode de travail et autorisations",
+      "source_section_sha256": "cea0e3fc48a9b94fffce6401967fc9f28090bd02ee0b311cd24e75aa1d44d75b",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 83,
+      "end_line": 93,
+      "title": "5. Architecture et données",
+      "source_section_sha256": "0d5af6d011e1e437d9991796d0d481a789633dc18de2d95a8e5075ccfeb2b2c5",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 94,
+      "end_line": 106,
+      "title": "6. Décisions et restrictions propres à chaque application",
+      "source_section_sha256": "65513d4056fa5f6ce650565c7aab85b5085552ac82c1f392a46680318cb4e81e",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-app/codex/AGENTS.md",
+      "start_line": 107,
+      "end_line": 120,
+      "title": "7. Contrôle final avant réponse ou prompt Codex",
+      "source_section_sha256": "a14259bc963eb84f0d303f46b3d45182678bed56e2067503b5fa59fb3402d5fe",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 2,
+      "end_line": 4,
+      "title": "Préambule source",
+      "source_section_sha256": "1150bdf6e7a8c3bfc1101e2403b9aff1f511691026ab6828783284619ed1ca3a",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 5,
+      "end_line": 19,
+      "title": "1. Identification obligatoire de l'application",
+      "source_section_sha256": "2e86ada25d66093b5dea31a579023cc722b7162f5112646a758590dae3f77b72",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 20,
+      "end_line": 29,
+      "title": "2. Sources de vérité et hiérarchie",
+      "source_section_sha256": "29eb0db1230a8d1a9aa128806629b5ea06f5b96753d4ab8c60c5ae5e69701bb7",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 30,
+      "end_line": 48,
+      "title": "3. Protocole anti-invention — obligatoire",
+      "source_section_sha256": "82121432fc856ad8be523691146422edefb3f7e7644ef69ec2eaf805eea6f11a",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 49,
+      "end_line": 59,
+      "title": "4. Méthode de travail et autorisations",
+      "source_section_sha256": "cea0e3fc48a9b94fffce6401967fc9f28090bd02ee0b311cd24e75aa1d44d75b",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 60,
+      "end_line": 70,
+      "title": "5. Architecture et données",
+      "source_section_sha256": "0d5af6d011e1e437d9991796d0d481a789633dc18de2d95a8e5075ccfeb2b2c5",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 71,
+      "end_line": 83,
+      "title": "6. Décisions et restrictions propres à chaque application",
+      "source_section_sha256": "65513d4056fa5f6ce650565c7aab85b5085552ac82c1f392a46680318cb4e81e",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-mobile/codex/AGENTS.md",
+      "start_line": 84,
+      "end_line": 97,
+      "title": "7. Contrôle final avant réponse ou prompt Codex",
+      "source_section_sha256": "eead4508689f37cbe1134346db9a15f1e9fd90dd81750bd90f09b9bda8d956dc",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 2,
+      "end_line": 4,
+      "title": "Préambule source",
+      "source_section_sha256": "1150bdf6e7a8c3bfc1101e2403b9aff1f511691026ab6828783284619ed1ca3a",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 5,
+      "end_line": 19,
+      "title": "1. Identification obligatoire de l'application",
+      "source_section_sha256": "2e86ada25d66093b5dea31a579023cc722b7162f5112646a758590dae3f77b72",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 20,
+      "end_line": 29,
+      "title": "2. Sources de vérité et hiérarchie",
+      "source_section_sha256": "29eb0db1230a8d1a9aa128806629b5ea06f5b96753d4ab8c60c5ae5e69701bb7",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 30,
+      "end_line": 48,
+      "title": "3. Protocole anti-invention — obligatoire",
+      "source_section_sha256": "82121432fc856ad8be523691146422edefb3f7e7644ef69ec2eaf805eea6f11a",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 49,
+      "end_line": 59,
+      "title": "4. Méthode de travail et autorisations",
+      "source_section_sha256": "cea0e3fc48a9b94fffce6401967fc9f28090bd02ee0b311cd24e75aa1d44d75b",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 60,
+      "end_line": 70,
+      "title": "5. Architecture et données",
+      "source_section_sha256": "0d5af6d011e1e437d9991796d0d481a789633dc18de2d95a8e5075ccfeb2b2c5",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 71,
+      "end_line": 83,
+      "title": "6. Décisions et restrictions propres à chaque application",
+      "source_section_sha256": "65513d4056fa5f6ce650565c7aab85b5085552ac82c1f392a46680318cb4e81e",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/AGENTS.md",
+      "start_line": 84,
+      "end_line": 97,
+      "title": "7. Contrôle final avant réponse ou prompt Codex",
+      "source_section_sha256": "eead4508689f37cbe1134346db9a15f1e9fd90dd81750bd90f09b9bda8d956dc",
+      "target": "AGENTS.md",
+      "mode": "replaced",
+      "note": "Règle commune harmonisée ; particularités App portées par les références App, garde Pod dans les références Pod. La consigne humaine remplace les copies par projet."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 2,
+      "end_line": 35,
+      "title": "Préambule source",
+      "source_section_sha256": "db7fb630cefc3eccb54747acfb9b36733b3abb841559175a844800e2870ed55b",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 36,
+      "end_line": 45,
+      "title": "23 octobre 2026 — navigation publique en page unique",
+      "source_section_sha256": "fdaa5c14a98605661c1a61aea7e7fd64c2a3537d267373e559b52a3e96ee9be9",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 46,
+      "end_line": 56,
+      "title": "Champs du simulateur complet — 23 octobre 2026",
+      "source_section_sha256": "ff426abf858aea83ef21a789b7a23eb105e6be2f0ae16fc47558b3190a183fad",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 57,
+      "end_line": 68,
+      "title": "23 octobre 2026 — simulateur simplifié accessible sans format",
+      "source_section_sha256": "13ef2199d3ae559fb74d878d65ed5afe36cfcf8bd89a5943e84364ece79cbc6a",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 69,
+      "end_line": 78,
+      "title": "23 octobre 2026 — montants du BP en euros entiers",
+      "source_section_sha256": "6d4661927e052f11d8d42cb198a8ee489dfd1362efee0e831a7595c74b76cecc",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 79,
+      "end_line": 91,
+      "title": "23 octobre 2026 — apport et bénéfice dans le simulateur public",
+      "source_section_sha256": "e8c047c2740bdda6aa5752f1ffd989e9f8be43e0cccd97e5489d63e775a8943b",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 92,
+      "end_line": 101,
+      "title": "23 octobre 2026 — coûts d'aménagement révisés sur instruction utilisateur",
+      "source_section_sha256": "0a5f5387cfb606f4aaf0dade320226724e0d31658dc3e3149eb9e90909710f4f",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 102,
+      "end_line": 116,
+      "title": "Accès mobile Wi-Fi autorisé — 23 octobre 2026",
+      "source_section_sha256": "3c1da15bf31193dd34cbe2df86a456912c547f24a1eb2b395d4258f9595beb59",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 117,
+      "end_line": 130,
+      "title": "25 octobre 2026 — sélecteur temporaire de couleurs publiques",
+      "source_section_sha256": "feeb5d3b70c8f01de00b694145059e4b1d41245eb60eb2bf8fb52adea4d2a961",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 131,
+      "end_line": 144,
+      "title": "Identité publique définitive — 25 octobre 2026",
+      "source_section_sha256": "d2a622e5605fe2805aca9a8785b49075914fd39450d943ba2b4bbec222141d3c",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 145,
+      "end_line": 167,
+      "title": "Photographies illustratives des pods — 26 octobre 2026",
+      "source_section_sha256": "5bcd0ccf09d43d0e8989ec41ed9b191b9cbb1ddc0f4f49886c53a6641a2de13d",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "movee-biz/codex/DEVELOPMENT_PROGRESS.md",
+      "start_line": 168,
+      "end_line": 191,
+      "title": "Design public Light / Black — 31 octobre 2026",
+      "source_section_sha256": "a790a27614269ccc507966afb56d3978541bce9e9da130d1d2365ff3d160ea2b",
+      "target": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "start_line": 2,
+      "end_line": 2,
+      "title": "Préambule source",
+      "source_section_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "start_line": 3,
+      "end_line": 16,
+      "title": "Organisation retenue",
+      "source_section_sha256": "07e8f5c2ceac9129e2435ea7e77b15d5eced50525896a79f19408eb7ce8a4f4c",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "start_line": 17,
+      "end_line": 23,
+      "title": "Sources communes",
+      "source_section_sha256": "784ada1b3d7d1d1750fa605c7556a5a7f6f73ff3094b3661358b8e82b7e12dd0",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "start_line": 24,
+      "end_line": 29,
+      "title": "Contrôle de transition, sans tests applicatifs",
+      "source_section_sha256": "955e07f640461480a23c00bf3d8c42bb5b5c792e565326c77f25c57a3c356488",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "start_line": 30,
+      "end_line": 36,
+      "title": "Références historiques",
+      "source_section_sha256": "31659ef580483f4798995d9243592e13d1df0443027954c9b436624f4a41eab2",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_BACKEND.md",
+      "start_line": 2,
+      "end_line": 6,
+      "title": "Préambule source",
+      "source_section_sha256": "6387813c2e3e4f59059be70f6ea0d2244fe468e0de9cacb6b3671d582083b98f",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_BACKEND.md",
+      "start_line": 7,
+      "end_line": 44,
+      "title": "Historique à consulter pour cette couche uniquement",
+      "source_section_sha256": "da197978feed6b144bb8da6d42efe850c6e7a742f76aabbc130fdadcf7745baf",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_MOBILE.md",
+      "start_line": 2,
+      "end_line": 6,
+      "title": "Préambule source",
+      "source_section_sha256": "6387813c2e3e4f59059be70f6ea0d2244fe468e0de9cacb6b3671d582083b98f",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_MOBILE.md",
+      "start_line": 7,
+      "end_line": 44,
+      "title": "Historique à consulter pour cette couche uniquement",
+      "source_section_sha256": "08845cd02821b3a59dabdee42db63b628997b89bc11f357130eb725d4856206a",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_BIZ.md",
+      "start_line": 2,
+      "end_line": 6,
+      "title": "Préambule source",
+      "source_section_sha256": "6387813c2e3e4f59059be70f6ea0d2244fe468e0de9cacb6b3671d582083b98f",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    },
+    {
+      "source": "docs/REPRISE_CONVERSATION_BIZ.md",
+      "start_line": 7,
+      "end_line": 44,
+      "title": "Historique à consulter pour cette couche uniquement",
+      "source_section_sha256": "f41a1b11ccaa97133a0aab710189ec8bdfb4830b5c3b40671ae94e16a7bd87fd",
+      "target": "README.md",
+      "mode": "replaced",
+      "note": "Suivi historique conservé à sa source pendant revue ; état contemporain et parcours de reprise actualisés sans recopier les prompts datés. Non proposé à suppression dans le présent lot si détails uniques."
+    }
+  ],
+  "missing_historical_links": [],
+  "deletions_performed": true,
+  "editorial_changes": [
+    "Organisation source à cinq fichiers / copies AGENTS remplacée par dossier commun sur instruction humaine.",
+    "Q réseau déplacés sans perte ; index dérivés Q redondants supprimés, décisions B détaillées conservées.",
+    "Les tableaux des78T ne sont plus recopiés dans la technique Mobile.",
+    "Historique daté déplacé après les spécifications ; préfixes de reprise indiquent les rapports récents sans prétendre à un audit runtime nouveau.",
+    "Références relatives rebases ; anciennes sources historiques absentes ne sont pas inventées.",
+    "Scope générique hérité du brief non attesté MOVEE non transposé comme implémentation ; aucun passe-droit administrateur réseau affirmé.",
+    "Préférences : statut de préparation non installée contextualisé par application autorisée déjà rapportée.",
+    "Pod : destination de centralisation résolue, aucun développement attesté ; Motion scindé en deux sans nouveau modèle physique.",
+    "Biz : compléments23–31octobre priment sur anciennes restrictions publiques ; réserves R01/R02 maintenues."
+  ],
+  "proposed_deletions": [
+    {
+      "path": "movee-app/codex/AGENTS.md",
+      "sha256_before_any_future_deletion": "7544cca4c326333c4648357ca011b70affe11a0c3572f243c72024ed61339546",
+      "replacement": "AGENTS.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-mobile/codex/AGENTS.md",
+      "sha256_before_any_future_deletion": "a345a7dcd3d838ba9f5051357ca1ad8e81b069418c37813ad0d1cdd9337e93c8",
+      "replacement": "AGENTS.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-biz/codex/AGENTS.md",
+      "sha256_before_any_future_deletion": "a345a7dcd3d838ba9f5051357ca1ad8e81b069418c37813ad0d1cdd9337e93c8",
+      "replacement": "AGENTS.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "1f0e2f896565a41e5a8441172577af82b14d56e55b903df6880db47e9b8706e3",
+      "replacement": "MOVEE_APP_FUNCTIONAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-app/codex/MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "bc98d9486e466e1a6b7f81e2145f9edc6c3bfd64b13df4255f00c35953dbaac7",
+      "replacement": "MOVEE_APP_TECHNICAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "f310d3cacf9f30b8c951a5e2338d40523afb2b210aeba8de3a1d337c051273f9",
+      "replacement": "MOVEE_MOBILE_FUNCTIONAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-mobile/codex/MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "035c9b6ff3e887be44a7ef42d9ceb9ad83babcfa4c80b3c297424f7ffccb7a3a",
+      "replacement": "MOVEE_MOBILE_TECHNICAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "107ed0bac436d987fdb151ae0bdd071959af65a12e44e1acf29931d5369b54dd",
+      "replacement": "MOVEE_BIZ_FUNCTIONAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-biz/codex/MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "sha256_before_any_future_deletion": "b36377384f83a384ade592d5e09a13126e98070a276e6d109500bb556c45f488",
+      "replacement": "MOVEE_BIZ_TECHNICAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-motion/codex/MOVEE_MOTION_REFERENCE.md",
+      "sha256_before_any_future_deletion": "9cb06eb1c06e1a98619ddec19196f6495e98ecff4cfc37d65ef664c45949e6cb",
+      "replacement": "MOVEE_MOTION_FUNCTIONAL_REFERENCE.md + MOVEE_MOTION_TECHNICAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "movee-app/codex/METADATA_ENGINE.md",
+      "sha256_before_any_future_deletion": "2ea23993170c05239882eb2644fe49a6c02f7e94693333ef7cbb833b383fb108",
+      "replacement": "MOVEE_TECHNICAL_REFERENCE.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "docs/CONTINUITE_PROJET_MOVEE.md",
+      "sha256_before_any_future_deletion": "b8300227dc2465a4e34678365033be1958dbd893793ea8b37ca5b682966c342b",
+      "replacement": "README.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BACKEND.md",
+      "sha256_before_any_future_deletion": "4d092586e067e495b5ac24bdfd7d7e3e7d50ff6b5c059ba78f05a02b5d9b36ec",
+      "replacement": "README.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_MOBILE.md",
+      "sha256_before_any_future_deletion": "6d0a24eaef5578d114a69f93475858f07d9034379323a5b3a94218fbdccb0bfe",
+      "replacement": "README.md",
+      "status": "deleted_after_user_authorization"
+    },
+    {
+      "path": "docs/REPRISE_CONVERSATION_BIZ.md",
+      "sha256_before_any_future_deletion": "3128a7f623f776e300ffa8d72b1eac5cde3a5d9ddb230ae60bc3b003426db093",
+      "replacement": "README.md",
+      "status": "deleted_after_user_authorization"
+    }
+  ],
+  "deferred_deletions": [
+    {
+      "path": "movee-app/codex/MOVEE_ADMIN_SCOPE.md",
+      "reason": "Read at runtime by movee-app/services/admin_studios_plan_service.py:18; adapt source dependency before deletion, preserve historical sealed plans.",
+      "replacement": "MOVEE_ADMIN_FUNCTIONAL_REFERENCE.md"
+    }
+  ],
+  "retained_progress_documents": [
+    "movee-biz/codex/DEVELOPMENT_PROGRESS.md"
+  ],
+  "cleanup_result": "CONSOLIDATION_CLEANUP_RESULT.json"
+}
